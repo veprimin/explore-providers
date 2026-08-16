@@ -63,9 +63,19 @@ NAD/TRT after that.
 
 | Item | Detail |
 |---|---|
-| Omzo + BetterMe Rx QMAX affiliate URLs | Both carry the sister exploretreatments sub-IDs, so they are `affiliateReady: false` — shown in tables, never linked, and refused by `/go/`. Flip to `true` once URLs are issued for this property |
-| Hone Health positioning | Its post argues "most affordable, $0.85/dose" (baked into the slug); the sister dataset says lab-first and priced per protocol. The two describe different products — needs a decision, not a number fix |
 | BraveRx + RODEO slugs say "4-in-1" | BraveRx is 3-in-1; both slugs are preserved deliberately because the URLs are indexed. Title, H1 and body carry the correct claim |
+
+**Resolved:**
+
+- **Omzo + BetterMe Rx QMAX affiliate URLs** — now `affiliateReady: true`. The
+  exploretreatments sub-IDs are the org's entire affiliate account, not a sister
+  property's, so the existing URLs are correct as-is. Both now link and are
+  accepted by `/go/`.
+- **Hone Health positioning** — resolved in favour of lab-first, matching the
+  already-updated title/description and the maintained dataset. The post body
+  was rewritten to the hormone-panel-first model; the "$0.85/dose most
+  affordable" framing and the unverified Trustpilot 4.8 rating were removed. The
+  slug still reads "most-affordable" and is preserved deliberately (indexed URL).
 
 ## Provider facts
 
