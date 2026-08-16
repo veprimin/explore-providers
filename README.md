@@ -3,6 +3,15 @@
 Migration of exploreproviders.com from WordPress to a static, blog-style
 Next.js site on Cloudflare.
 
+## Context for new sessions
+
+- [`CLAUDE.md`](CLAUDE.md) — working context and hard constraints. Claude Code
+  loads this automatically in any session on this repo.
+- [`docs/migration-context.md`](docs/migration-context.md) — full diagnosis,
+  Search Console data, partner lists and decisions with rationale.
+- [`docs/url-map.csv`](docs/url-map.csv) — per-URL verdict for all 463 URLs,
+  with lifetime click history attached to each row.
+
 ## Why the rebuild
 
 The site lost effectively all search traffic between 18–26 June 2026 (0 clicks
