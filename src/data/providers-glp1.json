@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "yucca-health",
+    "name": "Yucca Health",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 9,
+    "bestFor": "Adults seeking affordable, personalized GLP-1 or GLP-1+GIP treatment with flexible payment options",
+    "format": "Compounded semaglutide & tirzepatide",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1460&aff_id=10248",
+    "affiliateReady": false,
+    "ctaLabel": "Check Yucca Eligibility",
+    "logo": "yucca-health.svg",
+    "lastVerified": null,
+    "pros": [
+      "Both compounded semaglutide and tirzepatide (dual GIP/GLP-1) on one platform",
+      "Three buy-now-pay-later options: Klarna, Afterpay, and Affirm",
+      "Fully online intake with fast approval and no clinic visits"
+    ],
+    "cons": [
+      "No branded FDA-approved medications (Ozempic, Wegovy, Zepbound)",
+      "Does not accept health insurance",
+      "No weight-loss warranty or outcome guarantee"
+    ]
+  },
+  {
+    "slug": "ro-glp1",
+    "name": "Ro",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 8.7,
+    "bestFor": "Injection-averse patients who want the FDA-approved oral Wegovy pill from an established platform",
+    "format": "Oral GLP-1 — FDA-approved Wegovy pill",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://getroman.pxf.io/aND9zW",
+    "affiliateReady": false,
+    "ctaLabel": "Get Started with Ro",
+    "logo": "ro-glp1.svg",
+    "lastVerified": null,
+    "pros": [
+      "Access to the FDA-approved oral GLP-1 (Wegovy pill), a finished product rather than a compound",
+      "Established, full-service telehealth platform with strong brand trust",
+      "Pricing disclosed before you complete the consultation"
+    ],
+    "cons": [
+      "Branded FDA-approved medication costs more than compounded alternatives",
+      "Ongoing medication pricing varies and can be high depending on the plan",
+      "State availability can vary"
+    ]
+  },
+  {
+    "slug": "joinfridays",
+    "name": "JoinFridays",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 8.5,
+    "bestFor": "Price-sensitive patients who want flexible, cancel-anytime access to compounded GLP-1 therapy",
+    "format": "Compounded semaglutide & tirzepatide",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1284&aff_id=10248&source_id=et_1st_position&url_id=11836",
+    "affiliateReady": false,
+    "ctaLabel": "See Fridays Pricing",
+    "logo": "joinfridays.svg",
+    "lastVerified": null,
+    "pros": [
+      "Both compounded tirzepatide and semaglutide available on one platform",
+      "No membership fees; cancel anytime with no long-term contract",
+      "Personalized, clinician-guided care rather than a templated protocol"
+    ],
+    "cons": [
+      "Compounded medication only — no branded Ozempic, Wegovy, or Zepbound",
+      "Promo-code discounts are subject to change and may not always be available",
+      "Lowest advertised tier reflects introductory or shortest-term pricing"
+    ]
+  },
+  {
+    "slug": "mochi-health",
+    "name": "Mochi Health",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 8.3,
+    "bestFor": "Patients who want a live video visit with a doctor and GLP-1 access in all 50 states",
+    "format": "Compounded GLP-1 (semaglutide / tirzepatide)",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://mochihealthcorp.pxf.io/exploretreatments",
+    "affiliateReady": false,
+    "ctaLabel": "See Mochi Health",
+    "logo": "mochi-health.svg",
+    "lastVerified": null,
+    "pros": [
+      "Live video visits with a doctor, bookable in about 5 minutes (most rivals use async text review)",
+      "GLP-1 prescription access in all 50 states",
+      "24/7 support plus ongoing appointment availability throughout the program"
+    ],
+    "cons": [
+      "Membership-plus-medication pricing, so total monthly cost varies by plan",
+      "Ongoing pricing is less transparent than flat-rate competitors",
+      "Compounded-medication focus; branded options are not the primary offering"
+    ]
+  },
+  {
+    "slug": "maximus",
+    "name": "Maximus",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 8,
+    "bestFor": "Cost-conscious patients who want a simple, affordable direct-pay GLP-1 program",
+    "format": "Compounded GLP-1",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1347&aff_id=10248&source=best%20page&url_id=10976",
+    "affiliateReady": false,
+    "ctaLabel": "See Maximus Plan",
+    "logo": "maximus.svg",
+    "lastVerified": null,
+    "pros": [
+      "Low flat direct-pay rate with no clinic visits",
+      "Prescriptions approved by licensed doctors and filled through U.S. pharmacies",
+      "Simple, straightforward telemedicine process"
+    ],
+    "cons": [
+      "Smaller patient base and thinner public track record than larger platforms",
+      "Compounded medication only — no branded Ozempic, Wegovy, or Zepbound",
+      "No published outcome or weight-loss guarantee"
+    ]
+  },
+  {
+    "slug": "medvi",
+    "name": "MedVi",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 7.9,
+    "bestFor": "Patients who want a low first-month promo and 24/7 support on compounded semaglutide",
+    "format": "Compounded semaglutide",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://glp1.medvi.org/?page=multi&uid=84&oid=5&affid=89&source_id={page_slug}",
+    "affiliateReady": false,
+    "ctaLabel": "See MedVi Offer",
+    "logo": "medvi.svg",
+    "lastVerified": null,
+    "pros": [
+      "Clinically dosed compounded semaglutide with a simple online process",
+      "24/7 support from certified medical professionals",
+      "No clinic visits required"
+    ],
+    "cons": [
+      "Semaglutide only — no tirzepatide option",
+      "Price rises sharply after the promotional first month",
+      "Compounded medication only, with no published outcome guarantee"
+    ]
+  },
+  {
+    "slug": "sprout-health",
+    "name": "Sprout Health",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 7.7,
+    "bestFor": "Patients who prioritize fast approval and clear outcome framing over the lowest price",
+    "format": "Compounded semaglutide",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/SH4n9",
+    "affiliateReady": false,
+    "ctaLabel": "See Sprout Health",
+    "logo": "sprout-health.svg",
+    "lastVerified": null,
+    "pros": [
+      "Fast, lightning-quick approval process",
+      "Fully online with hassle-free GLP-1 medication delivery",
+      "No-frills, fast-entry experience for patients who want to start quickly"
+    ],
+    "cons": [
+      "Ongoing price is higher than several competitors after the discounted first month",
+      "Compounded medication only — no branded Ozempic or Wegovy",
+      "No published outcome guarantee despite the outcome-focused marketing"
+    ]
+  },
+  {
+    "slug": "sesame-care",
+    "name": "Sesame Care",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 7.6,
+    "bestFor": "Patients who want to choose their own clinician for oral GLP-1 care rather than being matched algorithmically",
+    "format": "Oral GLP-1 (clinician marketplace)",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/SH4xA",
+    "affiliateReady": false,
+    "ctaLabel": "Browse Sesame Care",
+    "logo": "sesame-care.svg",
+    "lastVerified": null,
+    "pros": [
+      "Marketplace model lets patients browse and select their own clinician",
+      "Flexible appointment scheduling across a large clinician network",
+      "Broad treatment coverage beyond GLP-1 in one place"
+    ],
+    "cons": [
+      "Experience varies by clinician, since providers practice independently",
+      "Pricing depends on the clinician and appointment type",
+      "Less standardized than a direct-to-patient GLP-1 platform"
+    ]
+  },
+  {
+    "slug": "willow",
+    "name": "Willow",
+    "vertical": "glp-1",
+    "partner": true,
+    "editorialScore": 7.5,
+    "bestFor": "Patients who want structured follow-up and progress tracking alongside GLP-1 therapy",
+    "format": "Compounded semaglutide & tirzepatide",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": null,
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1325&aff_id=10248&url_id=11116",
+    "affiliateReady": false,
+    "ctaLabel": "Explore Willow",
+    "logo": "willow.svg",
+    "lastVerified": null,
+    "pros": [
+      "Structured program with progress-tracking tools and follow-up consultations",
+      "Direct-pay model with no insurance or membership fees",
+      "Fully online telehealth workflow"
+    ],
+    "cons": [
+      "Monthly entry pricing is on the higher end for some plans",
+      "Compounded medication only — no branded Ozempic or Wegovy",
+      "Best value depends on committing to the structured follow-up model"
+    ]
+  }
+]
