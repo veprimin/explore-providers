@@ -42,6 +42,22 @@
 .prose-post :where(blockquote p) { @apply my-2; }
 .prose-post :where(strong) { @apply font-semibold text-slate-900; }
 
+/*
+ * Affiliate CTA button. Written as `a.cta-button` (element + class) so it
+ * outranks the unlayered `.prose-post :where(a)` link rule above — that rule is
+ * unlayered and would otherwise beat Tailwind's layered `text-*` utilities,
+ * painting the label the same dark slate as the button and hiding it. Keeping
+ * the whole button treatment here means colour, weight and underline are set in
+ * one place that reliably wins the cascade inside prose bodies.
+ */
+a.cta-button {
+  @apply inline-flex min-w-[220px] items-center justify-center rounded-lg bg-indigo-600 px-8 py-3 text-center text-base font-semibold text-white no-underline shadow-sm transition-colors;
+}
+a.cta-button:hover { @apply bg-indigo-700; }
+a.cta-button:focus-visible {
+  @apply outline-none ring-2 ring-indigo-400 ring-offset-2;
+}
+
 /* Tables inside MDX bodies scroll rather than blowing out the measure. */
 .prose-post :where(table) { @apply my-6 w-full border-collapse text-left text-sm; }
 .prose-post :where(th) { @apply border-b-2 border-slate-300 py-2 pr-4 font-semibold text-slate-900; }
