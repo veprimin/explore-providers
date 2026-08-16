@@ -1,4 +1,5 @@
 import providersEd from "@/data/providers-ed.json";
+import providersGlp1 from "@/data/providers-glp1.json";
 
 export type Vertical = "ed" | "glp-1";
 
@@ -58,8 +59,20 @@ export interface Provider {
  *   which is the organisation's maintained provider dataset and is checked
  *   against the providers there. `lastVerified` is set to the date those
  *   figures were taken from it. Re-check when a provider changes its plans.
+ *
+ * The GLP-1 records (`providers-glp1.json`) were pulled from the same sister
+ * repo (`data/providers/weight-loss.ts`, plus `oral-glp-1.ts` for Sesame Care).
+ * Every affiliate URL there carries exploretreatments' own sub-IDs
+ * (`aff_id=10248`, `source_id=et_*`, `pxf.io/exploretreatments`) or a
+ * `{page_slug}` placeholder, i.e. another property's attribution — so all are
+ * `affiliateReady: false` until a URL is issued for this site. Pricing was not
+ * checked against each provider's own site, so `startingPrice`, `priceNote` and
+ * `lastVerified` are all `null` (renders "Not published") per hard constraint #6.
  */
-const all: Provider[] = [...(providersEd as Provider[])];
+const all: Provider[] = [
+  ...(providersEd as Provider[]),
+  ...(providersGlp1 as Provider[]),
+];
 
 const bySlug = new Map(all.map((p) => [p.slug, p]));
 
