@@ -63,9 +63,16 @@ NAD/TRT after that.
 
 | Item | Detail |
 |---|---|
-| BraveRx + RODEO slugs say "4-in-1" | BraveRx is 3-in-1; both slugs are preserved deliberately because the URLs are indexed. Title, H1 and body carry the correct claim |
+| BraveRx + RODEO slugs say "4-in-1" | BraveRx is 3-in-1; the "4-in-1" wording in both slugs is kept deliberately. Title, H1 and body carry the correct claim |
 
 **Resolved:**
+
+- **Year in slugs** — the three dated slugs had their year stripped
+  (`braverx-reviews-2026-…` → `braverx-reviews-…`, `directmax-reviews-2026-…` →
+  `directmax-reviews-…`, `hone-health-…-provider-2025` →
+  `hone-health-…-provider`) and the old dated URLs now 301 to the new ones via
+  `src/data/redirects.json`. The year-free slugs won't date, and the redirect
+  carries the indexed equity across.
 
 - **Omzo + BetterMe Rx QMAX affiliate URLs** — now `affiliateReady: true`. The
   exploretreatments sub-IDs are the org's entire affiliate account, not a sister
@@ -75,7 +82,8 @@ NAD/TRT after that.
   already-updated title/description and the maintained dataset. The post body
   was rewritten to the hormone-panel-first model; the "$0.85/dose most
   affordable" framing and the unverified Trustpilot 4.8 rating were removed. The
-  slug still reads "most-affordable" and is preserved deliberately (indexed URL).
+  slug still reads "most-affordable" (kept deliberately); only the trailing year
+  was stripped, with a 301 from the old dated URL.
 
 ## Provider facts
 
