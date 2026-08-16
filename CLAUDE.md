@@ -48,17 +48,35 @@ layer, `/go/[partner]` affiliate redirects, 410/301 migration middleware
 (verified against a running server), Cloudflare deploy via `wrangler.jsonc`
 `build.command`, CI.
 
-**Not done:** essentially all content. If deployed today the site has zero
-published posts, the 9 parked ED partner pages 404, and every affiliate CTA
-falls through to the homepage.
+**Also done:** full-width layout; the static pages (About, Contact, Privacy,
+Terms, Disclosure, Editorial Policy, Methodology); all 8 parked ED reviews,
+recovered from the live WordPress REST API via `scripts/wp-to-mdx.mjs` so the
+URLs keep their original copy and publish dates; ED provider data with each
+provider's own affiliate URL, also recovered from its WordPress post so
+ExploreProviders' sub-IDs (`source_id=explore_providers`, `source=ep_reviews`)
+are preserved.
 
-## Blocked on the owner
+**Not done:** GLP-1. 14 URLs are marked REWRITE in the url-map; none exist yet.
+NAD/TRT after that.
 
-| Blocker | Needed for |
+## Open items
+
+| Item | Detail |
 |---|---|
-| ED affiliate URLs + current pricing | Every ED CTA; provider JSON covers GLP-1 only |
-| A named medical reviewer | Publishing any health page |
-| Access to `coachingautomation-design/new-design-next` | Design reference. Cross-owner repos cannot be attached to a session scoped to `veprimin` — needs a **new session started with that repo as the source** |
+| Omzo + BetterMe Rx QMAX affiliate URLs | Both carry the sister exploretreatments sub-IDs, so they are `affiliateReady: false` — shown in tables, never linked, and refused by `/go/`. Flip to `true` once URLs are issued for this property |
+| Hone Health positioning | Its post argues "most affordable, $0.85/dose" (baked into the slug); the sister dataset says lab-first and priced per protocol. The two describe different products — needs a decision, not a number fix |
+| BraveRx + RODEO slugs say "4-in-1" | BraveRx is 3-in-1; both slugs are preserved deliberately because the URLs are indexed. Title, H1 and body carry the correct claim |
+
+## Provider facts
+
+`coachingautomation-design/new-design-next` (`data/providers/ed-care.ts`) is the
+organisation's maintained dataset for exploretreatments.com and is the source of
+truth for pricing, formats and onset. Where a migrated WordPress post disagrees
+with it, the post is wrong — that was true of BraveRx (claimed a 4-in-1 of
+tadalafil/vardenafil/apomorphine/L-citrulline; it is a 3-in-1 of tadalafil
+15mg + sildenafil 40mg + apomorphine 3mg) and of RODEO (omitted vardenafil,
+called a troche when it is a rapid-absorb gum chew). Check a provider's own
+landing page before trusting either source on format.
 
 ## Order of work
 
