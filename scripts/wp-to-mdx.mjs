@@ -223,7 +223,17 @@ export function convert(html) {
     if (/^h[1-6]$/i.test(tag)) {
       const level = Math.max(2, Number(tag[1])); // never emit a second H1
       const text = inline(body).split(BREAK).join(" ").replace(/\s+/g, " ").trim();
-      if (text) out.push(`${"#".repeat(level)} ${text}`);
+      // Several posts carry a hand-built table of contents linking to explicit
+      // heading ids ("#side-effects" for "Potential Side Effects"), which a
+      // slug derived from the text would not reproduce. Where the source
+      // heading has an id, emit real markup so the anchor survives; the
+      // renderer's heading component slugs the rest.
+      const idMatch = /\bid="([^"]+)"/.exec(m[0]);
+      if (text && idMatch && !/[*[\]<]/.test(text)) {
+        out.push(`<h${level} id="${idMatch[1]}">${text}</h${level}>`);
+      } else if (text) {
+        out.push(`${"#".repeat(level)} ${text}`);
+      }
     } else if (tag === "p") {
       const text = splitBreaks(inline(body));
       // A paragraph that is nothing but the affiliate link was a styled button

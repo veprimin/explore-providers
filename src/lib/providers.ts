@@ -27,6 +27,13 @@ export interface Provider {
    */
   priceNote: string | null;
   affiliateUrl: string;
+  /**
+   * False when `affiliateUrl` is a placeholder or carries another property's
+   * sub-IDs. Such a provider is still shown in comparison tables — the data is
+   * useful — but is never given a clickable CTA, because every click would be
+   * attributed to someone else. Set true once a URL is issued for this site.
+   */
+  affiliateReady: boolean;
   ctaLabel: string;
   logo: string;
   /** ISO date the pricing was last checked against the provider's own site. */

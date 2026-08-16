@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { CTAButton } from "@/components/CTAButton";
 import { EditorialScore } from "@/components/EditorialScore";
+import { mdxHeading } from "@/components/Heading";
 import { OutboundLink } from "@/components/OutboundLink";
 import { ProviderAside } from "@/components/ProviderAside";
 import { ProviderTable } from "@/components/ProviderTable";
@@ -53,6 +54,11 @@ export default async function PostPage({
 
   // Components available inside MDX bodies.
   const components = {
+    // Headings carry anchor ids so the hand-built tables of contents in the
+    // migrated posts actually jump somewhere.
+    h2: mdxHeading(2),
+    h3: mdxHeading(3),
+    h4: mdxHeading(4),
     CTA: () => (provider ? <CTAButton provider={provider} /> : null),
     Score: () => (provider ? <EditorialScore provider={provider} /> : null),
     // Inline affiliate link from the migrated copy. With no provider on the

@@ -15,7 +15,17 @@ export function ProviderAside({
   heading: string;
   currentSlug?: string;
 }) {
-  const list = providers.filter((p) => p.slug !== currentSlug).slice(0, 5);
+  // Rank is taken from the full ordered list before anything is filtered out.
+  // Numbering the filtered list instead renumbers everything below the current
+  // provider, so the second-ranked provider shows as "1" on the top-ranked
+  // provider's page — while the rail claims to be ordered by editorial score.
+  // A provider without a usable affiliate URL still belongs in the ranking —
+  // dropping it would leave a visible gap in the numbering — it just does not
+  // get a link, because the click would be credited to another property.
+  const list = providers
+    .map((provider, index) => ({ provider, rank: index + 1 }))
+    .filter(({ provider }) => provider.slug !== currentSlug)
+    .slice(0, 5);
   if (list.length === 0) return null;
 
   return (
@@ -25,24 +35,26 @@ export function ProviderAside({
           {heading}
         </h2>
         <ol className="mt-4 space-y-4">
-          {list.map((p, i) => (
+          {list.map(({ provider: p, rank }) => (
             <li key={p.slug} className="flex gap-3">
               <span
                 aria-hidden="true"
                 className="mt-0.5 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-slate-900 text-xs font-semibold text-white"
               >
-                {i + 1}
+                {rank}
               </span>
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-slate-900">{p.name}</p>
                 <p className="mt-1 text-xs leading-5 text-slate-600">{p.bestFor}</p>
-                <a
-                  href={`/go/${p.slug}/`}
-                  rel="sponsored nofollow"
-                  className="mt-2 inline-block text-xs font-medium text-slate-900 underline underline-offset-2"
-                >
-                  {p.ctaLabel}
-                </a>
+                {p.affiliateReady && (
+                  <a
+                    href={`/go/${p.slug}/`}
+                    rel="sponsored nofollow"
+                    className="mt-2 inline-block text-xs font-medium text-slate-900 underline underline-offset-2"
+                  >
+                    {p.ctaLabel}
+                  </a>
+                )}
               </div>
             </li>
           ))}
