@@ -104,13 +104,29 @@ npm run deploy     # build and deploy to Cloudflare
 
 ## Deployment
 
-`wrangler.jsonc` declares a `build.command` of `npm run build:cf`, so
-`npx wrangler deploy` produces `.open-next/` itself. No separate build step
-needs configuring in the Cloudflare dashboard.
+Cloudflare Workers Builds needs both of these set on the project:
 
-Without that hook, `wrangler deploy` detects the OpenNext project, delegates to
-`opennextjs-cloudflare deploy`, and fails with *"Could not find compiled Open
-Next config"* because nothing built the worker first.
+| Setting | Value |
+|---|---|
+| Build command | `npm run build:cf` |
+| Deploy command | `npx wrangler deploy` |
+
+The build command is not optional, despite `wrangler.jsonc` declaring a
+`build.command` of its own. wrangler (4.123) detects the OpenNext project —
+`next.config.ts` sitting beside `open-next.config.ts` — and re-execs
+`npx opennextjs-cloudflare deploy` *before* it reads `build.command`, so that
+hook never runs on this path. With no build step configured, the deploy fails
+immediately with *"Could not find compiled Open Next config, did you run the
+build command?"*.
+
+`build.command` stays in `wrangler.jsonc` because wrangler skips the delegation
+when passed `--config`, `--dry-run` or `--no-autoconfig`, and those invocations
+still need `.open-next/`. The cost is one redundant rebuild per deploy:
+`opennextjs-cloudflare deploy` finishes by shelling back into `wrangler deploy`,
+and that inner run does execute `build.command`.
+
+Locally, deploy with `npm run deploy` — it builds first, so the delegation finds
+what it needs.
 
 CI runs `npm run build:cf` on every PR so a broken deploy surfaces before it
 reaches Cloudflare.
