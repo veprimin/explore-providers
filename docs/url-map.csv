@@ -1,0 +1,464 @@
+slug,type,vertical,brand_a,brand_b,clicks,verdict,notes
+fella-vs-maximus,comparison,GLP-1,fella,maximus,0,CUT (no demand),partner Maximus vs rival fella
+tuyo-health-vs-yucca-health,comparison,GLP-1,tuyo-health,yucca-health,0,CUT (no demand),partner Yucca Health vs rival tuyo-health
+tuyo-health-vs-elevate-health,comparison,GLP-1,tuyo-health,elevate-health,0,CUT (no demand),partner Elevate Health vs rival tuyo-health
+tuyo-health-vs-skinny-rx,comparison,GLP-1,tuyo-health,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival tuyo-health
+tuyo-health-vs-enhance-md,comparison,GLP-1,tuyo-health,enhance-md,0,CUT (no demand),partner Enhance MD vs rival tuyo-health
+tuyo-health-vs-maximus,comparison,GLP-1,tuyo-health,maximus,0,CUT (no demand),partner Maximus vs rival tuyo-health
+fridays-vs-hone,comparison,GLP-1,fridays,hone,0,CUT (no demand),partner JoinFridays vs rival hone
+fridays-vs-peter-md,comparison,GLP-1,fridays,peter-md,0,CUT (no demand),partner JoinFridays vs rival peter-md
+fridays-vs-mystart,comparison,GLP-1,fridays,mystart,0,CUT (no demand),partner JoinFridays vs rival mystart
+fridays-vs-bmi-md,comparison,GLP-1,fridays,bmi-md,0,CUT (no demand),partner JoinFridays vs rival bmi-md
+fridays-vs-urway-health,comparison,GLP-1,fridays,urway-health,0,CUT (no demand),partner JoinFridays vs rival urway-health
+fridays-vs-prime-health,comparison,GLP-1,fridays,prime-health,0,CUT (no demand),partner JoinFridays vs rival prime-health
+fridays-vs-reflexmd,comparison,GLP-1,fridays,reflexmd,0,CUT (no demand),partner JoinFridays vs rival reflexmd
+fridays-vs-dr-house,comparison,GLP-1,fridays,dr-house,0,CUT (no demand),partner JoinFridays vs rival dr-house
+fridays-vs-fella,comparison,GLP-1,fridays,fella,0,CUT (no demand),partner JoinFridays vs rival fella
+fridays-vs-tuyo-health,comparison,GLP-1,fridays,tuyo-health,0,CUT (no demand),partner JoinFridays vs rival tuyo-health
+willow-vs-hone,comparison,GLP-1,willow,hone,0,CUT (no demand),partner Willow vs rival hone
+willow-vs-peter-md,comparison,GLP-1,willow,peter-md,0,CUT (no demand),partner Willow vs rival peter-md
+willow-vs-mystart,comparison,GLP-1,willow,mystart,0,CUT (no demand),partner Willow vs rival mystart
+willow-vs-hims,comparison,GLP-1,willow,hims,0,CUT (no demand),partner Willow vs rival hims
+willow-vs-bmi-md,comparison,GLP-1,willow,bmi-md,0,CUT (no demand),partner Willow vs rival bmi-md
+willow-vs-urway-health,comparison,GLP-1,willow,urway-health,0,CUT (no demand),partner Willow vs rival urway-health
+willow-vs-prime-health,comparison,GLP-1,willow,prime-health,0,CUT (no demand),partner Willow vs rival prime-health
+willow-vs-reflexmd,comparison,GLP-1,willow,reflexmd,0,CUT (no demand),partner Willow vs rival reflexmd
+willow-vs-dr-house,comparison,GLP-1,willow,dr-house,0,CUT (no demand),partner Willow vs rival dr-house
+willow-vs-fella,comparison,GLP-1,willow,fella,0,CUT (no demand),partner Willow vs rival fella
+willow-vs-tuyo-health,comparison,GLP-1,willow,tuyo-health,0,CUT (no demand),partner Willow vs rival tuyo-health
+plushcare-vs-yucca-health,comparison,GLP-1,plushcare,yucca-health,0,CUT (no demand),partner Yucca Health vs rival plushcare
+plushcare-vs-elevate-health,comparison,GLP-1,plushcare,elevate-health,0,CUT (no demand),partner Elevate Health vs rival plushcare
+plushcare-vs-skinny-rx,comparison,GLP-1,plushcare,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival plushcare
+plushcare-vs-enhance-md,comparison,GLP-1,plushcare,enhance-md,0,CUT (no demand),partner Enhance MD vs rival plushcare
+plushcare-vs-maximus,comparison,GLP-1,plushcare,maximus,0,CUT (no demand),partner Maximus vs rival plushcare
+plushcare-vs-fridays,comparison,GLP-1,plushcare,fridays,0,CUT (no demand),partner JoinFridays vs rival plushcare
+plushcare-vs-willow,comparison,GLP-1,plushcare,willow,0,CUT (no demand),partner Willow vs rival plushcare
+direct-meds-vs-hone,comparison,GLP-1,direct-meds,hone,0,CUT (no demand),partner Directmeds vs rival hone
+direct-meds-vs-peter-md,comparison,GLP-1,direct-meds,peter-md,0,CUT (no demand),partner Directmeds vs rival peter-md
+direct-meds-vs-mystart,comparison,GLP-1,direct-meds,mystart,0,CUT (no demand),partner Directmeds vs rival mystart
+direct-meds-vs-hims,comparison,GLP-1,direct-meds,hims,0,CUT (no demand),partner Directmeds vs rival hims
+direct-meds-vs-bmi-md,comparison,GLP-1,direct-meds,bmi-md,0,CUT (no demand),partner Directmeds vs rival bmi-md
+direct-meds-vs-urway-health,comparison,GLP-1,direct-meds,urway-health,0,CUT (no demand),partner Directmeds vs rival urway-health
+direct-meds-vs-prime-health,comparison,GLP-1,direct-meds,prime-health,0,CUT (no demand),partner Directmeds vs rival prime-health
+direct-meds-vs-reflexmd,comparison,GLP-1,direct-meds,reflexmd,0,CUT (no demand),partner Directmeds vs rival reflexmd
+direct-meds-vs-dr-house,comparison,GLP-1,direct-meds,dr-house,0,CUT (no demand),partner Directmeds vs rival dr-house
+direct-meds-vs-fella,comparison,GLP-1,direct-meds,fella,0,CUT (no demand),partner Directmeds vs rival fella
+direct-meds-vs-tuyo-health,comparison,GLP-1,direct-meds,tuyo-health,0,CUT (no demand),partner Directmeds vs rival tuyo-health
+direct-meds-vs-plushcare,comparison,GLP-1,direct-meds,plushcare,0,CUT (no demand),partner Directmeds vs rival plushcare
+clinic-secret-vs-yucca-health,comparison,GLP-1,clinic-secret,yucca-health,0,CUT (no demand),partner Yucca Health vs rival clinic-secret
+clinic-secret-vs-elevate-health,comparison,GLP-1,clinic-secret,elevate-health,0,CUT (no demand),partner Elevate Health vs rival clinic-secret
+clinic-secret-vs-skinny-rx,comparison,GLP-1,clinic-secret,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival clinic-secret
+clinic-secret-vs-enhance-md,comparison,GLP-1,clinic-secret,enhance-md,0,CUT (no demand),partner Enhance MD vs rival clinic-secret
+clinic-secret-vs-maximus,comparison,GLP-1,clinic-secret,maximus,0,CUT (no demand),partner Maximus vs rival clinic-secret
+clinic-secret-vs-fridays,comparison,GLP-1,clinic-secret,fridays,0,CUT (no demand),partner JoinFridays vs rival clinic-secret
+clinic-secret-vs-willow,comparison,GLP-1,clinic-secret,willow,0,CUT (no demand),partner Willow vs rival clinic-secret
+clinic-secret-vs-direct-meds,comparison,GLP-1,clinic-secret,direct-meds,0,CUT (no demand),partner Directmeds vs rival clinic-secret
+sesame-care-vs-hone,comparison,GLP-1,sesame-care,hone,0,CUT (no demand),partner Sesame Care vs rival hone
+sesame-care-vs-peter-md,comparison,GLP-1,sesame-care,peter-md,0,CUT (no demand),partner Sesame Care vs rival peter-md
+sesame-care-vs-mystart,comparison,GLP-1,sesame-care,mystart,0,CUT (no demand),partner Sesame Care vs rival mystart
+sesame-care-vs-hims,comparison,GLP-1,sesame-care,hims,0,CUT (no demand),partner Sesame Care vs rival hims
+sesame-care-vs-bmi-md,comparison,GLP-1,sesame-care,bmi-md,0,CUT (no demand),partner Sesame Care vs rival bmi-md
+sesame-care-vs-urway-health,comparison,GLP-1,sesame-care,urway-health,0,CUT (no demand),partner Sesame Care vs rival urway-health
+sesame-care-vs-prime-health,comparison,GLP-1,sesame-care,prime-health,0,CUT (no demand),partner Sesame Care vs rival prime-health
+sesame-care-vs-reflexmd,comparison,GLP-1,sesame-care,reflexmd,0,CUT (no demand),partner Sesame Care vs rival reflexmd
+sesame-care-vs-dr-house,comparison,GLP-1,sesame-care,dr-house,0,CUT (no demand),partner Sesame Care vs rival dr-house
+sesame-care-vs-fella,comparison,GLP-1,sesame-care,fella,0,CUT (no demand),partner Sesame Care vs rival fella
+sesame-care-vs-tuyo-health,comparison,GLP-1,sesame-care,tuyo-health,0,CUT (no demand),partner Sesame Care vs rival tuyo-health
+sesame-care-vs-plushcare,comparison,GLP-1,sesame-care,plushcare,0,CUT (no demand),partner Sesame Care vs rival plushcare
+sesame-care-vs-clinic-secret,comparison,GLP-1,sesame-care,clinic-secret,0,CUT (no demand),partner Sesame Care vs rival clinic-secret
+sprout-health-vs-hone,comparison,GLP-1,sprout-health,hone,0,CUT (no demand),partner Sprout Health vs rival hone
+sprout-health-vs-peter-md,comparison,GLP-1,sprout-health,peter-md,0,CUT (no demand),partner Sprout Health vs rival peter-md
+sprout-health-vs-mystart,comparison,GLP-1,sprout-health,mystart,0,CUT (no demand),partner Sprout Health vs rival mystart
+sprout-health-vs-hims,comparison,GLP-1,sprout-health,hims,0,CUT (no demand),partner Sprout Health vs rival hims
+sprout-health-vs-bmi-md,comparison,GLP-1,sprout-health,bmi-md,0,CUT (no demand),partner Sprout Health vs rival bmi-md
+sprout-health-vs-urway-health,comparison,GLP-1,sprout-health,urway-health,0,CUT (no demand),partner Sprout Health vs rival urway-health
+sprout-health-vs-prime-health,comparison,GLP-1,sprout-health,prime-health,0,CUT (no demand),partner Sprout Health vs rival prime-health
+sprout-health-vs-reflexmd,comparison,GLP-1,sprout-health,reflexmd,0,CUT (no demand),partner Sprout Health vs rival reflexmd
+sprout-health-vs-dr-house,comparison,GLP-1,sprout-health,dr-house,0,CUT (no demand),partner Sprout Health vs rival dr-house
+sprout-health-vs-fella,comparison,GLP-1,sprout-health,fella,0,CUT (no demand),partner Sprout Health vs rival fella
+sprout-health-vs-tuyo-health,comparison,GLP-1,sprout-health,tuyo-health,0,CUT (no demand),partner Sprout Health vs rival tuyo-health
+sprout-health-vs-clinic-secret,comparison,GLP-1,sprout-health,clinic-secret,0,CUT (no demand),partner Sprout Health vs rival clinic-secret
+medvi-vs-hone,comparison,GLP-1,medvi,hone,0,CUT (no demand),partner MedVi vs rival hone
+medvi-vs-peter-md,comparison,GLP-1,medvi,peter-md,0,CUT (no demand),partner MedVi vs rival peter-md
+medvi-vs-mystart,comparison,GLP-1,medvi,mystart,0,CUT (no demand),partner MedVi vs rival mystart
+medvi-vs-bmi-md,comparison,GLP-1,medvi,bmi-md,0,CUT (no demand),partner MedVi vs rival bmi-md
+medvi-vs-urway-health,comparison,GLP-1,medvi,urway-health,0,CUT (no demand),partner MedVi vs rival urway-health
+medvi-vs-prime-health,comparison,GLP-1,medvi,prime-health,0,CUT (no demand),partner MedVi vs rival prime-health
+medvi-vs-reflexmd,comparison,GLP-1,medvi,reflexmd,0,CUT (no demand),partner MedVi vs rival reflexmd
+medvi-vs-dr-house,comparison,GLP-1,medvi,dr-house,0,CUT (no demand),partner MedVi vs rival dr-house
+medvi-vs-fella,comparison,GLP-1,medvi,fella,0,CUT (no demand),partner MedVi vs rival fella
+medvi-vs-tuyo-health,comparison,GLP-1,medvi,tuyo-health,0,CUT (no demand),partner MedVi vs rival tuyo-health
+medvi-vs-plushcare,comparison,GLP-1,medvi,plushcare,0,CUT (no demand),partner MedVi vs rival plushcare
+medvi-vs-clinic-secret,comparison,GLP-1,medvi,clinic-secret,0,CUT (no demand),partner MedVi vs rival clinic-secret
+ro-co-vs-hone,comparison,GLP-1,ro-co,hone,0,CUT (no demand),partner Ro.co vs rival hone
+ro-co-vs-peter-md,comparison,GLP-1,ro-co,peter-md,0,CUT (no demand),partner Ro.co vs rival peter-md
+ro-co-vs-mystart,comparison,GLP-1,ro-co,mystart,0,CUT (no demand),partner Ro.co vs rival mystart
+ro-co-vs-hims,comparison,GLP-1,ro-co,hims,0,CUT (no demand),partner Ro.co vs rival hims
+ro-co-vs-bmi-md,comparison,GLP-1,ro-co,bmi-md,0,CUT (no demand),partner Ro.co vs rival bmi-md
+ro-co-vs-urway-health,comparison,GLP-1,ro-co,urway-health,0,CUT (no demand),partner Ro.co vs rival urway-health
+ro-co-vs-prime-health,comparison,GLP-1,ro-co,prime-health,0,CUT (no demand),partner Ro.co vs rival prime-health
+ro-co-vs-reflexmd,comparison,GLP-1,ro-co,reflexmd,0,CUT (no demand),partner Ro.co vs rival reflexmd
+ro-co-vs-dr-house,comparison,GLP-1,ro-co,dr-house,0,CUT (no demand),partner Ro.co vs rival dr-house
+ro-co-vs-fella,comparison,GLP-1,ro-co,fella,0,CUT (no demand),partner Ro.co vs rival fella
+ro-co-vs-tuyo-health,comparison,GLP-1,ro-co,tuyo-health,0,CUT (no demand),partner Ro.co vs rival tuyo-health
+ro-co-vs-clinic-secret,comparison,GLP-1,ro-co,clinic-secret,0,CUT (no demand),partner Ro.co vs rival clinic-secret
+futur-health-vs-yucca-health,comparison,GLP-1,futur-health,yucca-health,0,CUT (no demand),partner Yucca Health vs rival futur-health
+futur-health-vs-elevate-health,comparison,GLP-1,futur-health,elevate-health,0,CUT (no demand),partner Elevate Health vs rival futur-health
+futur-health-vs-skinny-rx,comparison,GLP-1,futur-health,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival futur-health
+futur-health-vs-enhance-md,comparison,GLP-1,futur-health,enhance-md,0,CUT (no demand),partner Enhance MD vs rival futur-health
+futur-health-vs-maximus,comparison,GLP-1,futur-health,maximus,0,CUT (no demand),partner Maximus vs rival futur-health
+futur-health-vs-fridays,comparison,GLP-1,futur-health,fridays,0,CUT (no demand),partner JoinFridays vs rival futur-health
+futur-health-vs-willow,comparison,GLP-1,futur-health,willow,0,CUT (no demand),partner Willow vs rival futur-health
+futur-health-vs-direct-meds,comparison,GLP-1,futur-health,direct-meds,0,CUT (no demand),partner Directmeds vs rival futur-health
+futur-health-vs-sesame-care,comparison,GLP-1,futur-health,sesame-care,0,CUT (no demand),partner Sesame Care vs rival futur-health
+futur-health-vs-sprout-health,comparison,GLP-1,futur-health,sprout-health,0,CUT (no demand),partner Sprout Health vs rival futur-health
+futur-health-vs-medvi,comparison,GLP-1,futur-health,medvi,0,CUT (no demand),partner MedVi vs rival futur-health
+futur-health-vs-ro-co,comparison,GLP-1,futur-health,ro-co,0,CUT (no demand),partner Ro.co vs rival futur-health
+ivim-health-vs-hone,comparison,GLP-1,ivim-health,hone,0,CUT (no demand),partner IVIM Health vs rival hone
+ivim-health-vs-peter-md,comparison,GLP-1,ivim-health,peter-md,0,CUT (no demand),partner IVIM Health vs rival peter-md
+ivim-health-vs-mystart,comparison,GLP-1,ivim-health,mystart,0,CUT (no demand),partner IVIM Health vs rival mystart
+ivim-health-vs-hims,comparison,GLP-1,ivim-health,hims,0,CUT (no demand),partner IVIM Health vs rival hims
+ivim-health-vs-bmi-md,comparison,GLP-1,ivim-health,bmi-md,0,CUT (no demand),partner IVIM Health vs rival bmi-md
+ivim-health-vs-urway-health,comparison,GLP-1,ivim-health,urway-health,0,CUT (no demand),partner IVIM Health vs rival urway-health
+ivim-health-vs-prime-health,comparison,GLP-1,ivim-health,prime-health,0,CUT (no demand),partner IVIM Health vs rival prime-health
+ivim-health-vs-reflexmd-2,comparison,GLP-1,ivim-health,reflexmd-2,0,CUT (no demand),partner IVIM Health vs rival reflexmd-2
+ivim-health-vs-reflexmd,comparison,GLP-1,ivim-health,reflexmd,0,CUT (no demand),partner IVIM Health vs rival reflexmd
+ivim-health-vs-dr-house,comparison,GLP-1,ivim-health,dr-house,0,CUT (no demand),partner IVIM Health vs rival dr-house
+ivim-health-vs-fella,comparison,GLP-1,ivim-health,fella,0,CUT (no demand),partner IVIM Health vs rival fella
+ivim-health-vs-tuyo-health,comparison,GLP-1,ivim-health,tuyo-health,0,CUT (no demand),partner IVIM Health vs rival tuyo-health
+ivim-health-vs-plushcare,comparison,GLP-1,ivim-health,plushcare,0,CUT (no demand),partner IVIM Health vs rival plushcare
+ivim-health-vs-clinic-secret,comparison,GLP-1,ivim-health,clinic-secret,0,CUT (no demand),partner IVIM Health vs rival clinic-secret
+ivim-health-vs-futur-health,comparison,GLP-1,ivim-health,futur-health,0,CUT (no demand),partner IVIM Health vs rival futur-health
+mochi-health-vs-hone,comparison,GLP-1,mochi-health,hone,0,CUT (no demand),partner Mochi Health vs rival hone
+mochi-health-vs-peter-md,comparison,GLP-1,mochi-health,peter-md,0,CUT (no demand),partner Mochi Health vs rival peter-md
+mochi-health-vs-mystart,comparison,GLP-1,mochi-health,mystart,0,CUT (no demand),partner Mochi Health vs rival mystart
+mochi-health-vs-hims,comparison,GLP-1,mochi-health,hims,0,CUT (no demand),partner Mochi Health vs rival hims
+mochi-health-vs-bmi-md,comparison,GLP-1,mochi-health,bmi-md,0,CUT (no demand),partner Mochi Health vs rival bmi-md
+mochi-health-vs-urway-health,comparison,GLP-1,mochi-health,urway-health,0,CUT (no demand),partner Mochi Health vs rival urway-health
+mochi-health-vs-prime-health,comparison,GLP-1,mochi-health,prime-health,0,CUT (no demand),partner Mochi Health vs rival prime-health
+mochi-health-vs-reflexmd,comparison,GLP-1,mochi-health,reflexmd,0,CUT (no demand),partner Mochi Health vs rival reflexmd
+mochi-health-vs-dr-house,comparison,GLP-1,mochi-health,dr-house,0,CUT (no demand),partner Mochi Health vs rival dr-house
+mochi-health-vs-fella,comparison,GLP-1,mochi-health,fella,0,CUT (no demand),partner Mochi Health vs rival fella
+mochi-health-vs-tuyo-health,comparison,GLP-1,mochi-health,tuyo-health,0,CUT (no demand),partner Mochi Health vs rival tuyo-health
+mochi-health-vs-plushcare,comparison,GLP-1,mochi-health,plushcare,0,CUT (no demand),partner Mochi Health vs rival plushcare
+mochi-health-vs-clinic-secret,comparison,GLP-1,mochi-health,clinic-secret,0,CUT (no demand),partner Mochi Health vs rival clinic-secret
+willow-vs-noom-for-glp-1-medications-why-willow-wins,comparison,GLP-1,willow,noom-for-glp-1-medications-why-willow-wins,0,CUT (no demand),partner Willow vs rival noom-for-glp-1-medications-why-willow-wins
+hone-vs-yucca-health,comparison,GLP-1,hone,yucca-health,0,CUT (no demand),partner Yucca Health vs rival hone
+peter-md-vs-yucca-health,comparison,GLP-1,peter-md,yucca-health,0,CUT (no demand),partner Yucca Health vs rival peter-md
+mystart-vs-yucca-health,comparison,GLP-1,mystart,yucca-health,0,CUT (no demand),partner Yucca Health vs rival mystart
+hims-vs-yucca-health,comparison,GLP-1,hims,yucca-health,0,CUT (no demand),partner Yucca Health vs rival hims
+elevate-health-vs-hone,comparison,GLP-1,elevate-health,hone,0,CUT (no demand),partner Elevate Health vs rival hone
+elevate-health-vs-peter-md,comparison,GLP-1,elevate-health,peter-md,0,CUT (no demand),partner Elevate Health vs rival peter-md
+elevate-health-vs-mystart,comparison,GLP-1,elevate-health,mystart,0,CUT (no demand),partner Elevate Health vs rival mystart
+elevate-health-vs-hims,comparison,GLP-1,elevate-health,hims,0,CUT (no demand),partner Elevate Health vs rival hims
+bmi-md-vs-yucca-health,comparison,GLP-1,bmi-md,yucca-health,0,CUT (no demand),partner Yucca Health vs rival bmi-md
+bmi-md-vs-elevate-health,comparison,GLP-1,bmi-md,elevate-health,0,CUT (no demand),partner Elevate Health vs rival bmi-md
+skinny-rx-vs-hone,comparison,GLP-1,skinny-rx,hone,0,CUT (no demand),partner SkinnyRx vs rival hone
+skinny-rx-vs-peter-md,comparison,GLP-1,skinny-rx,peter-md,0,CUT (no demand),partner SkinnyRx vs rival peter-md
+skinny-rx-vs-mystart,comparison,GLP-1,skinny-rx,mystart,0,CUT (no demand),partner SkinnyRx vs rival mystart
+skinny-rx-vs-hims,comparison,GLP-1,skinny-rx,hims,0,CUT (no demand),partner SkinnyRx vs rival hims
+skinny-rx-vs-bmi-md,comparison,GLP-1,skinny-rx,bmi-md,0,CUT (no demand),partner SkinnyRx vs rival bmi-md
+urway-health-vs-yucca-health,comparison,GLP-1,urway-health,yucca-health,0,CUT (no demand),partner Yucca Health vs rival urway-health
+urway-health-vs-elevate-health,comparison,GLP-1,urway-health,elevate-health,0,CUT (no demand),partner Elevate Health vs rival urway-health
+urway-health-vs-skinny-rx,comparison,GLP-1,urway-health,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival urway-health
+prime-health-vs-yucca-health,comparison,GLP-1,prime-health,yucca-health,0,CUT (no demand),partner Yucca Health vs rival prime-health
+prime-health-vs-elevate-health,comparison,GLP-1,prime-health,elevate-health,0,CUT (no demand),partner Elevate Health vs rival prime-health
+prime-health-vs-skinny-rx,comparison,GLP-1,prime-health,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival prime-health
+enhance-md-vs-hone,comparison,GLP-1,enhance-md,hone,0,CUT (no demand),partner Enhance MD vs rival hone
+enhance-md-vs-peter-md,comparison,GLP-1,enhance-md,peter-md,0,CUT (no demand),partner Enhance MD vs rival peter-md
+enhance-md-vs-mystart,comparison,GLP-1,enhance-md,mystart,0,CUT (no demand),partner Enhance MD vs rival mystart
+enhance-md-vs-hims,comparison,GLP-1,enhance-md,hims,0,CUT (no demand),partner Enhance MD vs rival hims
+enhance-md-vs-bmi-md,comparison,GLP-1,enhance-md,bmi-md,0,CUT (no demand),partner Enhance MD vs rival bmi-md
+enhance-md-vs-urway-health,comparison,GLP-1,enhance-md,urway-health,0,CUT (no demand),partner Enhance MD vs rival urway-health
+enhance-md-vs-prime-health,comparison,GLP-1,enhance-md,prime-health,0,CUT (no demand),partner Enhance MD vs rival prime-health
+maximus-vs-hone,comparison,GLP-1,maximus,hone,0,CUT (no demand),partner Maximus vs rival hone
+maximus-vs-peter-md,comparison,GLP-1,maximus,peter-md,0,CUT (no demand),partner Maximus vs rival peter-md
+maximus-vs-mystart,comparison,GLP-1,maximus,mystart,0,CUT (no demand),partner Maximus vs rival mystart
+maximus-vs-hims,comparison,GLP-1,maximus,hims,0,CUT (no demand),partner Maximus vs rival hims
+maximus-vs-bmi-md,comparison,GLP-1,maximus,bmi-md,0,CUT (no demand),partner Maximus vs rival bmi-md
+maximus-vs-urway-health,comparison,GLP-1,maximus,urway-health,0,CUT (no demand),partner Maximus vs rival urway-health
+maximus-vs-prime-health,comparison,GLP-1,maximus,prime-health,0,CUT (no demand),partner Maximus vs rival prime-health
+reflexmd-vs-yucca-health,comparison,GLP-1,reflexmd,yucca-health,0,CUT (no demand),partner Yucca Health vs rival reflexmd
+reflexmd-vs-elevate-health,comparison,GLP-1,reflexmd,elevate-health,0,CUT (no demand),partner Elevate Health vs rival reflexmd
+reflexmd-vs-skinny-rx,comparison,GLP-1,reflexmd,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival reflexmd
+reflexmd-vs-enhance-md,comparison,GLP-1,reflexmd,enhance-md,0,CUT (no demand),partner Enhance MD vs rival reflexmd
+reflexmd-vs-maximus,comparison,GLP-1,reflexmd,maximus,0,CUT (no demand),partner Maximus vs rival reflexmd
+dr-house-vs-yucca-health,comparison,GLP-1,dr-house,yucca-health,0,CUT (no demand),partner Yucca Health vs rival dr-house
+dr-house-vs-elevate-health,comparison,GLP-1,dr-house,elevate-health,0,CUT (no demand),partner Elevate Health vs rival dr-house
+dr-house-vs-skinny-rx,comparison,GLP-1,dr-house,skinny-rx,0,CUT (no demand),partner SkinnyRx vs rival dr-house
+dr-house-vs-enhance-md,comparison,GLP-1,dr-house,enhance-md,0,CUT (no demand),partner Enhance MD vs rival dr-house
+dr-house-vs-maximus,comparison,GLP-1,dr-house,maximus,0,CUT (no demand),partner Maximus vs rival dr-house
+fella-vs-yucca-health,comparison,GLP-1,fella,yucca-health,0,CUT (no demand),partner Yucca Health vs rival fella
+fridays-vs-elevate-health,comparison,GLP-1,fridays,elevate-health,0,CUT (no demand),both partners JoinFridays/Elevate Health - cannibalizes
+fridays-vs-enhance-md,comparison,GLP-1,fridays,enhance-md,0,CUT (no demand),both partners JoinFridays/Enhance MD - cannibalizes
+fridays-vs-maximus,comparison,GLP-1,fridays,maximus,0,CUT (no demand),both partners JoinFridays/Maximus - cannibalizes
+willow-vs-yucca-health,comparison,GLP-1,willow,yucca-health,0,CUT (no demand),both partners Willow/Yucca Health - cannibalizes
+willow-vs-elevate-health,comparison,GLP-1,willow,elevate-health,0,CUT (no demand),both partners Willow/Elevate Health - cannibalizes
+willow-vs-enhance-md,comparison,GLP-1,willow,enhance-md,0,CUT (no demand),both partners Willow/Enhance MD - cannibalizes
+willow-vs-maximus,comparison,GLP-1,willow,maximus,0,CUT (no demand),both partners Willow/Maximus - cannibalizes
+direct-meds-vs-yucca-health,comparison,GLP-1,direct-meds,yucca-health,0,CUT (no demand),both partners Directmeds/Yucca Health - cannibalizes
+direct-meds-vs-elevate-health,comparison,GLP-1,direct-meds,elevate-health,0,CUT (no demand),both partners Directmeds/Elevate Health - cannibalizes
+direct-meds-vs-skinny-rx,comparison,GLP-1,direct-meds,skinny-rx,0,CUT (no demand),both partners Directmeds/SkinnyRx - cannibalizes
+direct-meds-vs-enhance-md,comparison,GLP-1,direct-meds,enhance-md,0,CUT (no demand),both partners Directmeds/Enhance MD - cannibalizes
+direct-meds-vs-maximus,comparison,GLP-1,direct-meds,maximus,0,CUT (no demand),both partners Directmeds/Maximus - cannibalizes
+direct-meds-vs-willow,comparison,GLP-1,direct-meds,willow,0,CUT (no demand),both partners Directmeds/Willow - cannibalizes
+sesame-care-vs-yucca-health,comparison,GLP-1,sesame-care,yucca-health,0,CUT (no demand),both partners Sesame Care/Yucca Health - cannibalizes
+sesame-care-vs-elevate-health,comparison,GLP-1,sesame-care,elevate-health,0,CUT (no demand),both partners Sesame Care/Elevate Health - cannibalizes
+sesame-care-vs-skinny-rx,comparison,GLP-1,sesame-care,skinny-rx,0,CUT (no demand),both partners Sesame Care/SkinnyRx - cannibalizes
+sesame-care-vs-enhance-md,comparison,GLP-1,sesame-care,enhance-md,0,CUT (no demand),both partners Sesame Care/Enhance MD - cannibalizes
+sesame-care-vs-maximus,comparison,GLP-1,sesame-care,maximus,0,CUT (no demand),both partners Sesame Care/Maximus - cannibalizes
+sesame-care-vs-fridays,comparison,GLP-1,sesame-care,fridays,0,CUT (no demand),both partners Sesame Care/JoinFridays - cannibalizes
+sesame-care-vs-willow,comparison,GLP-1,sesame-care,willow,0,CUT (no demand),both partners Sesame Care/Willow - cannibalizes
+sesame-care-vs-direct-meds,comparison,GLP-1,sesame-care,direct-meds,0,CUT (no demand),both partners Sesame Care/Directmeds - cannibalizes
+sprout-health-vs-yucca-health,comparison,GLP-1,sprout-health,yucca-health,0,CUT (no demand),both partners Sprout Health/Yucca Health - cannibalizes
+sprout-health-vs-elevate-health,comparison,GLP-1,sprout-health,elevate-health,0,CUT (no demand),both partners Sprout Health/Elevate Health - cannibalizes
+sprout-health-vs-enhance-md,comparison,GLP-1,sprout-health,enhance-md,0,CUT (no demand),both partners Sprout Health/Enhance MD - cannibalizes
+sprout-health-vs-maximus,comparison,GLP-1,sprout-health,maximus,0,CUT (no demand),both partners Sprout Health/Maximus - cannibalizes
+sprout-health-vs-direct-meds,comparison,GLP-1,sprout-health,direct-meds,0,CUT (no demand),both partners Sprout Health/Directmeds - cannibalizes
+sprout-health-vs-sesame-care,comparison,GLP-1,sprout-health,sesame-care,0,CUT (no demand),both partners Sprout Health/Sesame Care - cannibalizes
+medvi-vs-elevate-health,comparison,GLP-1,medvi,elevate-health,0,CUT (no demand),both partners MedVi/Elevate Health - cannibalizes
+medvi-vs-enhance-md,comparison,GLP-1,medvi,enhance-md,0,CUT (no demand),both partners MedVi/Enhance MD - cannibalizes
+medvi-vs-maximus,comparison,GLP-1,medvi,maximus,0,CUT (no demand),both partners MedVi/Maximus - cannibalizes
+medvi-vs-sesame-care,comparison,GLP-1,medvi,sesame-care,0,CUT (no demand),both partners MedVi/Sesame Care - cannibalizes
+ro-co-vs-elevate-health,comparison,GLP-1,ro-co,elevate-health,0,CUT (no demand),both partners Ro.co/Elevate Health - cannibalizes
+ro-co-vs-enhance-md,comparison,GLP-1,ro-co,enhance-md,0,CUT (no demand),both partners Ro.co/Enhance MD - cannibalizes
+ro-co-vs-maximus,comparison,GLP-1,ro-co,maximus,0,CUT (no demand),both partners Ro.co/Maximus - cannibalizes
+ro-co-vs-sesame-care-2,comparison,GLP-1,ro-co,sesame-care-2,0,CUT (no demand),both partners Ro.co/Sesame Care - cannibalizes
+ro-co-vs-sesame-care,comparison,GLP-1,ro-co,sesame-care,0,CUT (no demand),both partners Ro.co/Sesame Care - cannibalizes
+ivim-health-vs-yucca-health,comparison,GLP-1,ivim-health,yucca-health,0,CUT (no demand),both partners IVIM Health/Yucca Health - cannibalizes
+willow-vs-hers-best-glp-1-medications-injections,comparison,GLP-1,willow,hers-best-glp-1-medications-injections,0,CUT (no demand),both partners Willow/Hers - cannibalizes
+ivim-health-vs-elevate-health,comparison,GLP-1,ivim-health,elevate-health,0,CUT (no demand),both partners IVIM Health/Elevate Health - cannibalizes
+ivim-health-vs-skinny-rx,comparison,GLP-1,ivim-health,skinny-rx,0,CUT (no demand),both partners IVIM Health/SkinnyRx - cannibalizes
+ivim-health-vs-enhance-md,comparison,GLP-1,ivim-health,enhance-md,0,CUT (no demand),both partners IVIM Health/Enhance MD - cannibalizes
+ivim-health-vs-maximus,comparison,GLP-1,ivim-health,maximus,0,CUT (no demand),both partners IVIM Health/Maximus - cannibalizes
+ivim-health-vs-willow,comparison,GLP-1,ivim-health,willow,0,CUT (no demand),both partners IVIM Health/Willow - cannibalizes
+ivim-health-vs-direct-meds,comparison,GLP-1,ivim-health,direct-meds,0,CUT (no demand),both partners IVIM Health/Directmeds - cannibalizes
+ivim-health-vs-sesame-care,comparison,GLP-1,ivim-health,sesame-care,0,CUT (no demand),both partners IVIM Health/Sesame Care - cannibalizes
+ivim-health-vs-sprout-health,comparison,GLP-1,ivim-health,sprout-health,0,CUT (no demand),both partners IVIM Health/Sprout Health - cannibalizes
+mochi-health-vs-elevate-health,comparison,GLP-1,mochi-health,elevate-health,0,CUT (no demand),both partners Mochi Health/Elevate Health - cannibalizes
+mochi-health-vs-skinny-rx,comparison,GLP-1,mochi-health,skinny-rx,0,CUT (no demand),both partners Mochi Health/SkinnyRx - cannibalizes
+mochi-health-vs-enhance-md,comparison,GLP-1,mochi-health,enhance-md,0,CUT (no demand),both partners Mochi Health/Enhance MD - cannibalizes
+mochi-health-vs-maximus,comparison,GLP-1,mochi-health,maximus,0,CUT (no demand),both partners Mochi Health/Maximus - cannibalizes
+mochi-health-vs-direct-meds,comparison,GLP-1,mochi-health,direct-meds,0,CUT (no demand),both partners Mochi Health/Directmeds - cannibalizes
+mochi-health-vs-sesame-care,comparison,GLP-1,mochi-health,sesame-care,0,CUT (no demand),both partners Mochi Health/Sesame Care - cannibalizes
+mochi-vs-ro,comparison,GLP-1,mochi,ro,0,CUT (no demand),both partners Mochi Health/Ro.co - cannibalizes
+mochi-health-vs-ro-co,comparison,GLP-1,mochi-health,ro-co,0,CUT (no demand),both partners Mochi Health/Ro.co - cannibalizes
+elevate-health-vs-yucca-health,comparison,GLP-1,elevate-health,yucca-health,0,CUT (no demand),both partners Elevate Health/Yucca Health - cannibalizes
+skinny-rx-vs-yucca-health,comparison,GLP-1,skinny-rx,yucca-health,0,CUT (no demand),both partners SkinnyRx/Yucca Health - cannibalizes
+skinny-rx-vs-elevate-health,comparison,GLP-1,skinny-rx,elevate-health,0,CUT (no demand),both partners SkinnyRx/Elevate Health - cannibalizes
+enhance-md-vs-yucca-health,comparison,GLP-1,enhance-md,yucca-health,0,CUT (no demand),both partners Enhance MD/Yucca Health - cannibalizes
+enhance-md-vs-elevate-health,comparison,GLP-1,enhance-md,elevate-health,0,CUT (no demand),both partners Enhance MD/Elevate Health - cannibalizes
+enhance-md-vs-skinny-rx,comparison,GLP-1,enhance-md,skinny-rx,0,CUT (no demand),both partners Enhance MD/SkinnyRx - cannibalizes
+maximus-vs-yucca-health,comparison,GLP-1,maximus,yucca-health,0,CUT (no demand),both partners Maximus/Yucca Health - cannibalizes
+maximus-vs-elevate-health,comparison,GLP-1,maximus,elevate-health,0,CUT (no demand),both partners Maximus/Elevate Health - cannibalizes
+maximus-vs-skinny-rx,comparison,GLP-1,maximus,skinny-rx,0,CUT (no demand),both partners Maximus/SkinnyRx - cannibalizes
+maximus-vs-enhance-md,comparison,GLP-1,maximus,enhance-md,0,CUT (no demand),both partners Maximus/Enhance MD - cannibalizes
+ro-co-vs-willow,comparison,GLP-1,ro-co,willow,158,KEEP (proven demand),both partners Ro.co/Willow - cannibalizes
+ro-co-vs-medvi,comparison,GLP-1,ro-co,medvi,124,KEEP (proven demand),both partners Ro.co/MedVi - cannibalizes
+medvi-vs-fridays,comparison,GLP-1,medvi,fridays,120,KEEP (proven demand),both partners MedVi/JoinFridays - cannibalizes
+willow-vs-fridays,comparison,GLP-1,willow,fridays,110,KEEP (proven demand),both partners Willow/JoinFridays - cannibalizes
+medvi-vs-direct-meds,comparison,GLP-1,medvi,direct-meds,90,KEEP (proven demand),both partners MedVi/Directmeds - cannibalizes
+ro-co-vs-fridays,comparison,GLP-1,ro-co,fridays,79,KEEP (proven demand),both partners Ro.co/JoinFridays - cannibalizes
+fridays-vs-hims,comparison,GLP-1,fridays,hims,60,KEEP (proven demand),partner JoinFridays vs rival hims
+mochi-health-vs-fridays,comparison,GLP-1,mochi-health,fridays,54,KEEP (proven demand),both partners Mochi Health/JoinFridays - cannibalizes
+medvi-vs-hims,comparison,GLP-1,medvi,hims,53,KEEP (proven demand),partner MedVi vs rival hims
+medvi-vs-sprout-health,comparison,GLP-1,medvi,sprout-health,52,KEEP (proven demand),both partners MedVi/Sprout Health - cannibalizes
+ro-co-vs-sprout-health,comparison,GLP-1,ro-co,sprout-health,41,KEEP (proven demand),both partners Ro.co/Sprout Health - cannibalizes
+medvi-vs-willow,comparison,GLP-1,medvi,willow,40,KEEP (proven demand),both partners MedVi/Willow - cannibalizes
+ivim-health-vs-ro-co,comparison,GLP-1,ivim-health,ro-co,36,KEEP (proven demand),both partners IVIM Health/Ro.co - cannibalizes
+medvi-vs-skinny-rx,comparison,GLP-1,medvi,skinny-rx,34,KEEP (proven demand),both partners MedVi/SkinnyRx - cannibalizes
+ro-co-vs-direct-meds,comparison,GLP-1,ro-co,direct-meds,32,KEEP (proven demand),both partners Ro.co/Directmeds - cannibalizes
+medvi-vs-yucca-health,comparison,GLP-1,medvi,yucca-health,28,KEEP (proven demand),both partners MedVi/Yucca Health - cannibalizes
+ivim-health-vs-medvi,comparison,GLP-1,ivim-health,medvi,27,KEEP (proven demand),both partners IVIM Health/MedVi - cannibalizes
+ivim-health-vs-fridays,comparison,GLP-1,ivim-health,fridays,24,KEEP (proven demand),both partners IVIM Health/JoinFridays - cannibalizes
+sprout-health-vs-fridays,comparison,GLP-1,sprout-health,fridays,22,KEEP (proven demand),both partners Sprout Health/JoinFridays - cannibalizes
+ro-co-vs-skinny-rx,comparison,GLP-1,ro-co,skinny-rx,20,KEEP (proven demand),both partners Ro.co/SkinnyRx - cannibalizes
+mochi-health-vs-yucca-health,comparison,GLP-1,mochi-health,yucca-health,20,KEEP (proven demand),both partners Mochi Health/Yucca Health - cannibalizes
+fridays-vs-yucca-health,comparison,GLP-1,fridays,yucca-health,19,KEEP (proven demand),both partners JoinFridays/Yucca Health - cannibalizes
+willow-vs-skinny-rx,comparison,GLP-1,willow,skinny-rx,19,KEEP (proven demand),both partners Willow/SkinnyRx - cannibalizes
+ro-co-vs-yucca-health,comparison,GLP-1,ro-co,yucca-health,15,KEEP (proven demand),both partners Ro.co/Yucca Health - cannibalizes
+mochi-health-vs-willow,comparison,GLP-1,mochi-health,willow,13,KEEP (proven demand),both partners Mochi Health/Willow - cannibalizes
+fridays-vs-skinny-rx,comparison,GLP-1,fridays,skinny-rx,11,KEEP (proven demand),both partners JoinFridays/SkinnyRx - cannibalizes
+direct-meds-vs-fridays,comparison,GLP-1,direct-meds,fridays,11,KEEP (proven demand),both partners Directmeds/JoinFridays - cannibalizes
+sprout-health-vs-skinny-rx,comparison,GLP-1,sprout-health,skinny-rx,11,KEEP (proven demand),both partners Sprout Health/SkinnyRx - cannibalizes
+ro-co-vs-plushcare,comparison,GLP-1,ro-co,plushcare,10,KEEP (proven demand),partner Ro.co vs rival plushcare
+try-eden-vs-fridays,comparison,GLP-1,try-eden,fridays,38,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-medvi,comparison,GLP-1,try-eden,medvi,25,KILL (410),excluded: Eden/GetThin/Novi
+tuyo-health-review,review,other,,,14,KILL (410),no partner / off-scope vertical
+urway-health-review,review,other,,,10,KILL (410),no partner / off-scope vertical
+feel30-trt-reviews-2026-best-testosterone-therapy-for-men,review,other,,,10,KILL (410),no partner / off-scope vertical
+dudemeds-review-budget-friendly-ed-treatment-option,review,ED,,,7,KILL (410),ED non-partner
+oak-glp-1-review-2026-oak-longevity-weight-loss-program-pricing-pros-cons-what-to-know,review,other,,,0,KILL (410),no partner / off-scope vertical
+gala-glp-1-reviews-2026-179-tirzepatide-at-any-dose,review,other,,,0,KILL (410),no partner / off-scope vertical
+fella-vs-reflexmd,comparison,GLP-1,fella,reflexmd,0,KILL (410),neither is a GLP-1 partner
+fella-vs-dr-house,comparison,GLP-1,fella,dr-house,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-hone,comparison,GLP-1,tuyo-health,hone,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-peter-md,comparison,GLP-1,tuyo-health,peter-md,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-mystart,comparison,GLP-1,tuyo-health,mystart,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-hims,comparison,GLP-1,tuyo-health,hims,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-bmi-md,comparison,GLP-1,tuyo-health,bmi-md,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-urway-health,comparison,GLP-1,tuyo-health,urway-health,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-prime-health,comparison,GLP-1,tuyo-health,prime-health,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-reflexmd,comparison,GLP-1,tuyo-health,reflexmd,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-dr-house,comparison,GLP-1,tuyo-health,dr-house,0,KILL (410),neither is a GLP-1 partner
+tuyo-health-vs-fella,comparison,GLP-1,tuyo-health,fella,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-hone,comparison,GLP-1,plushcare,hone,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-peter-md,comparison,GLP-1,plushcare,peter-md,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-mystart,comparison,GLP-1,plushcare,mystart,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-hims,comparison,GLP-1,plushcare,hims,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-bmi-md,comparison,GLP-1,plushcare,bmi-md,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-urway-health,comparison,GLP-1,plushcare,urway-health,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-prime-health,comparison,GLP-1,plushcare,prime-health,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-reflexmd,comparison,GLP-1,plushcare,reflexmd,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-dr-house,comparison,GLP-1,plushcare,dr-house,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-fella,comparison,GLP-1,plushcare,fella,0,KILL (410),neither is a GLP-1 partner
+plushcare-vs-tuyo-health,comparison,GLP-1,plushcare,tuyo-health,0,KILL (410),neither is a GLP-1 partner
+gala-glp-1-reviews-2026-compounded-glp-1-gip-program-at-179-month,review,other,,,0,KILL (410),no partner / off-scope vertical
+clinic-secret-vs-hone,comparison,GLP-1,clinic-secret,hone,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-peter-md,comparison,GLP-1,clinic-secret,peter-md,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-mystart,comparison,GLP-1,clinic-secret,mystart,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-hims,comparison,GLP-1,clinic-secret,hims,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-bmi-md,comparison,GLP-1,clinic-secret,bmi-md,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-urway-health,comparison,GLP-1,clinic-secret,urway-health,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-prime-health,comparison,GLP-1,clinic-secret,prime-health,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-reflexmd,comparison,GLP-1,clinic-secret,reflexmd,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-dr-house,comparison,GLP-1,clinic-secret,dr-house,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-fella,comparison,GLP-1,clinic-secret,fella,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-tuyo-health,comparison,GLP-1,clinic-secret,tuyo-health,0,KILL (410),neither is a GLP-1 partner
+clinic-secret-vs-plushcare,comparison,GLP-1,clinic-secret,plushcare,0,KILL (410),neither is a GLP-1 partner
+try-eden-vs-yucca-health,comparison,GLP-1,try-eden,yucca-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-hone,comparison,GLP-1,try-eden,hone,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-peter-md,comparison,GLP-1,try-eden,peter-md,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-mystart,comparison,GLP-1,try-eden,mystart,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-hims,comparison,GLP-1,try-eden,hims,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-elevate-health,comparison,GLP-1,try-eden,elevate-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-bmi-md,comparison,GLP-1,try-eden,bmi-md,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-skinny-rx,comparison,GLP-1,try-eden,skinny-rx,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-urway-health,comparison,GLP-1,try-eden,urway-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-prime-health,comparison,GLP-1,try-eden,prime-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-enhance-md,comparison,GLP-1,try-eden,enhance-md,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-maximus,comparison,GLP-1,try-eden,maximus,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-reflexmd,comparison,GLP-1,try-eden,reflexmd,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-dr-house,comparison,GLP-1,try-eden,dr-house,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-fella,comparison,GLP-1,try-eden,fella,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-tuyo-health,comparison,GLP-1,try-eden,tuyo-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-willow,comparison,GLP-1,try-eden,willow,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-plushcare,comparison,GLP-1,try-eden,plushcare,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-direct-meds,comparison,GLP-1,try-eden,direct-meds,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-clinic-secret,comparison,GLP-1,try-eden,clinic-secret,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-sesame-care,comparison,GLP-1,try-eden,sesame-care,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-sprout-health,comparison,GLP-1,try-eden,sprout-health,0,KILL (410),excluded: Eden/GetThin/Novi
+try-eden-vs-ro-co,comparison,GLP-1,try-eden,ro-co,0,KILL (410),excluded: Eden/GetThin/Novi
+futur-health-vs-hone,comparison,GLP-1,futur-health,hone,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-peter-md,comparison,GLP-1,futur-health,peter-md,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-mystart,comparison,GLP-1,futur-health,mystart,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-hims,comparison,GLP-1,futur-health,hims,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-bmi-md,comparison,GLP-1,futur-health,bmi-md,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-urway-health,comparison,GLP-1,futur-health,urway-health,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-prime-health,comparison,GLP-1,futur-health,prime-health,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-reflexmd,comparison,GLP-1,futur-health,reflexmd,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-dr-house,comparison,GLP-1,futur-health,dr-house,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-fella,comparison,GLP-1,futur-health,fella,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-tuyo-health,comparison,GLP-1,futur-health,tuyo-health,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-plushcare,comparison,GLP-1,futur-health,plushcare,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-clinic-secret,comparison,GLP-1,futur-health,clinic-secret,0,KILL (410),neither is a GLP-1 partner
+futur-health-vs-try-eden,comparison,GLP-1,futur-health,try-eden,0,KILL (410),excluded: Eden/GetThin/Novi
+ivim-health-vs-try-eden,comparison,GLP-1,ivim-health,try-eden,0,KILL (410),excluded: Eden/GetThin/Novi
+mochi-vs-try-eden,comparison,GLP-1,mochi,try-eden,0,KILL (410),excluded: Eden/GetThin/Novi
+clinic-secret-reviews,review,other,,,0,KILL (410),no partner / off-scope vertical
+is-skinnyrx-legit-reviews,review,other,,,0,KILL (410),no partner / off-scope vertical
+futur-health-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+hims-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+wellorithm-reviews-2026-wellorithm-glp-1-weight-loss-program-worth-it,review,other,,,0,KILL (410),no partner / off-scope vertical
+get-thin-md-review-2026-glp-1-weight-loss-program-breakdown-pricing-pros-cons,review,other,,,0,KILL (410),no partner / off-scope vertical
+mystart-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+petermd-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+plushcare-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+prime-health-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+reflexmd-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+skinnyrx-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+tryeden-health-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+rnk-health-sermorelin-review-2026-lean-muscle-fat-loss-deep-recovery,review,other,,,0,KILL (410),no partner / off-scope vertical
+embody-glp-1-reviews-99-weight-loss-program-with-online-doctors-2026,review,other,,,0,KILL (410),no partner / off-scope vertical
+liv-body-glp-1-weight-loss-review-pricing-results-pros-cons-reviews,review,other,,,0,KILL (410),no partner / off-scope vertical
+clinic-secret-pentadeca-arginate-pda-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+try-measured-reviews-best-glp-1-weight-loss-provider-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+trimrx-reviews-best-glp-1-weight-loss-provider-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+carebarerx-reviews-best-glp-1-weight-loss-provider-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+synergyrx-reviews-best-glp-1-weight-loss-provider-review,review,other,,,0,KILL (410),no partner / off-scope vertical
+mochi-health-vs-try-eden,comparison,GLP-1,mochi-health,try-eden,0,KILL (410),excluded: Eden/GetThin/Novi
+tmates-glp-1-review-semaglutide-tirzepatide-for-fast-safe-weight-loss,review,other,,,0,KILL (410),no partner / off-scope vertical
+jack-jill-review-fast-acting-flexible-ed-plans,review,ED,,,0,KILL (410),ED non-partner
+brightmeds-review-performance-focused-ed-solutions,review,ED,,,0,KILL (410),ED non-partner
+plushcare-ed-review-insurance-friendly-online-ed-provider,review,ED,,,0,KILL (410),ED non-partner
+mydrhank-review-cheapest-generic-ed-meds-up-to-95-savings,review,ED,,,0,KILL (410),ED non-partner
+tuyo-health-ed-review-private-fast-20-off-with-tuyo20-2,review,ED,,,0,KILL (410),ED non-partner
+hello-cake-review-fastest-acting-ed-medication-works-in-15-minutes,review,ED,,,0,KILL (410),ED non-partner
+tuyo-health-ed-review-private-fast-20-off-with-tuyo20,review,ED,,,0,KILL (410),ED non-partner
+peter-md-vs-hone,comparison,GLP-1,peter-md,hone,0,KILL (410),neither is a GLP-1 partner
+mystart-vs-hone,comparison,GLP-1,mystart,hone,0,KILL (410),neither is a GLP-1 partner
+mystart-vs-peter-md,comparison,GLP-1,mystart,peter-md,0,KILL (410),neither is a GLP-1 partner
+hims-vs-hone,comparison,GLP-1,hims,hone,0,KILL (410),neither is a GLP-1 partner
+hims-vs-peter-md,comparison,GLP-1,hims,peter-md,0,KILL (410),neither is a GLP-1 partner
+hims-vs-mystart,comparison,GLP-1,hims,mystart,0,KILL (410),neither is a GLP-1 partner
+bmi-md-vs-hone,comparison,GLP-1,bmi-md,hone,0,KILL (410),neither is a GLP-1 partner
+bmi-md-vs-peter-md,comparison,GLP-1,bmi-md,peter-md,0,KILL (410),neither is a GLP-1 partner
+bmi-md-vs-mystart,comparison,GLP-1,bmi-md,mystart,0,KILL (410),neither is a GLP-1 partner
+bmi-md-vs-hims,comparison,GLP-1,bmi-md,hims,0,KILL (410),neither is a GLP-1 partner
+urway-health-vs-hone,comparison,GLP-1,urway-health,hone,0,KILL (410),neither is a GLP-1 partner
+urway-health-vs-peter-md,comparison,GLP-1,urway-health,peter-md,0,KILL (410),neither is a GLP-1 partner
+urway-health-vs-mystart,comparison,GLP-1,urway-health,mystart,0,KILL (410),neither is a GLP-1 partner
+urway-health-vs-hims,comparison,GLP-1,urway-health,hims,0,KILL (410),neither is a GLP-1 partner
+urway-health-vs-bmi-md,comparison,GLP-1,urway-health,bmi-md,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-hone,comparison,GLP-1,prime-health,hone,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-peter-md,comparison,GLP-1,prime-health,peter-md,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-mystart,comparison,GLP-1,prime-health,mystart,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-hims,comparison,GLP-1,prime-health,hims,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-bmi-md,comparison,GLP-1,prime-health,bmi-md,0,KILL (410),neither is a GLP-1 partner
+prime-health-vs-urway-health,comparison,GLP-1,prime-health,urway-health,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-hone,comparison,GLP-1,reflexmd,hone,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-peter-md,comparison,GLP-1,reflexmd,peter-md,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-mystart,comparison,GLP-1,reflexmd,mystart,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-hims,comparison,GLP-1,reflexmd,hims,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-bmi-md,comparison,GLP-1,reflexmd,bmi-md,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-urway-health,comparison,GLP-1,reflexmd,urway-health,0,KILL (410),neither is a GLP-1 partner
+reflexmd-vs-prime-health,comparison,GLP-1,reflexmd,prime-health,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-hone,comparison,GLP-1,dr-house,hone,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-peter-md,comparison,GLP-1,dr-house,peter-md,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-mystart,comparison,GLP-1,dr-house,mystart,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-hims,comparison,GLP-1,dr-house,hims,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-bmi-md,comparison,GLP-1,dr-house,bmi-md,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-urway-health,comparison,GLP-1,dr-house,urway-health,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-prime-health,comparison,GLP-1,dr-house,prime-health,0,KILL (410),neither is a GLP-1 partner
+dr-house-vs-reflexmd,comparison,GLP-1,dr-house,reflexmd,0,KILL (410),neither is a GLP-1 partner
+fella-vs-hone,comparison,GLP-1,fella,hone,0,KILL (410),neither is a GLP-1 partner
+fella-vs-peter-md,comparison,GLP-1,fella,peter-md,0,KILL (410),neither is a GLP-1 partner
+best-ed-medication-providers,review,ED,,,0,KILL (410),ED non-partner
+the-best-online-nad%e2%81%ba-providers-of-2025-in-depth-review-pricing-analysis-and-comprehensive-comparison,review,other,,,0,KILL (410),no partner / off-scope vertical
+medvi-quad-ed-review-pricing-how-it-works-pros-cons,review,ED,MedVi QUAD,,553,PARK (migrate as-is),"ED partner MedVi QUAD - preserve URL+content, phase 2"
+medvi-quad-ed-review-pricing-how-it-works-pros-cons-quad-reviews,review,ED,MedVi QUAD,,517,PARK (migrate as-is),"ED partner MedVi QUAD - preserve URL+content, phase 2"
+medvi-quad-ed-reviews-quad-by-medvi-ed-review,review,ED,MedVi QUAD,,95,PARK (migrate as-is),"ED partner MedVi QUAD - preserve URL+content, phase 2"
+directmax-reviews-2026-is-directmax-worth-it-for-ed-treatment,review,ED,DirectMax,,67,PARK (migrate as-is),"ED partner DirectMax - preserve URL+content, phase 2"
+medvi-quad-review-2026-pricing-how-it-works-ed-results-side-effects,review,ED,MedVi QUAD,,27,PARK (migrate as-is),"ED partner MedVi QUAD - preserve URL+content, phase 2"
+embody-rodeo-reviews-top-rated-4-in-1-male-health-quadruple-ed-meds,review,ED,Embody RODEO,,9,PARK (migrate as-is),"ED partner Embody RODEO - preserve URL+content, phase 2"
+medvi-quad-reviews-cost-benefits-drawbacks-quad-medvi-review,review,ED,MedVi QUAD,,9,PARK (migrate as-is),"ED partner MedVi QUAD - preserve URL+content, phase 2"
+braverx-reviews-2026-4-in-1-ed-medication-formula-with-apomorphine,review,ED,BraveRx,,7,PARK (migrate as-is),"ED partner BraveRx - preserve URL+content, phase 2"
+hims-ed-review-popular-affordable-ed-treatment-under-2,review,ED,Hims,,0,PARK (migrate as-is),"ED partner Hims - preserve URL+content, phase 2"
+rugiet-review-ultra-fast-ed-relief-in-15-minutes-15-off-2,review,ED,Rugiet,,0,PARK (migrate as-is),"ED partner Rugiet - preserve URL+content, phase 2"
+ro-ed-treatment-review-trusted-reliable-15-off-first-order,review,ED,Ro,,0,PARK (migrate as-is),"ED partner Ro - preserve URL+content, phase 2"
+hone-health-review-best-overall-most-affordable-ed-provider-2025,review,ED,Hone Health,,0,PARK (migrate as-is),"ED partner Hone Health - preserve URL+content, phase 2"
+rugiet-review-ultra-fast-ed-relief-in-15-minutes-15-off,review,ED,Rugiet,,0,PARK (migrate as-is),"ED partner Rugiet - preserve URL+content, phase 2"
+yucca-health-review,review,GLP-1,Yucca Health,,80,REWRITE,GLP-1 partner Yucca Health
+maximus-review,review,GLP-1,Maximus,,13,REWRITE,GLP-1 partner Maximus
+yucca-health-reviews-2026-is-this-compounded-glp-1-semaglutide-tirzepatide-telehealth-platform-worth-it,review,GLP-1,Yucca Health,,0,REWRITE,GLP-1 partner Yucca Health
+fridays-review,review,GLP-1,JoinFridays,,0,REWRITE,GLP-1 partner JoinFridays
+medvi-review,review,GLP-1,MedVi,,0,REWRITE,GLP-1 partner MedVi
+mochi-review,review,GLP-1,Mochi Health,,0,REWRITE,GLP-1 partner Mochi Health
+ro-review,review,GLP-1,Ro.co,,0,REWRITE,GLP-1 partner Ro.co
+sesame-care-review,review,GLP-1,Sesame Care,,0,REWRITE,GLP-1 partner Sesame Care
+sprout-health-review,review,GLP-1,Sprout Health,,0,REWRITE,GLP-1 partner Sprout Health
+willow-review,review,GLP-1,Willow,,0,REWRITE,GLP-1 partner Willow
+medvi-meals-review-2026-fresh-macro-friendly-meal-delivery,review,GLP-1,MedVi,,0,REWRITE,GLP-1 partner MedVi
+fridays-testosterone-test-review-2026-is-it-included-how-it-works,review,GLP-1,JoinFridays,,0,REWRITE,GLP-1 partner JoinFridays
+fridays-trt-review-2026-is-it-legit-safe-and-worth-it-join-fridays-trt-reviews,review,GLP-1,JoinFridays,,0,REWRITE,GLP-1 partner JoinFridays
+maximus-review-expert-guided-ed-mens-performance-programs,review,GLP-1,Maximus,,0,REWRITE,GLP-1 partner Maximus
