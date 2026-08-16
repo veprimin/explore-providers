@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+
+.prose-post :where(h2) { @apply mt-10 mb-3 text-2xl font-semibold text-slate-900; }
+.prose-post :where(h3) { @apply mt-8 mb-2 text-xl font-semibold text-slate-900; }
+.prose-post :where(p)  { @apply my-4 leading-7 text-slate-700; }
+.prose-post :where(ul) { @apply my-4 list-disc space-y-1 pl-6 text-slate-700; }
+.prose-post :where(ol) { @apply my-4 list-decimal space-y-1 pl-6 text-slate-700; }
+.prose-post :where(a)  { @apply text-slate-900 underline underline-offset-2; }
