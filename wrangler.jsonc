@@ -2,6 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "explore-providers",
   "main": ".open-next/worker.js",
+  // Runs before deploy so `wrangler deploy` works without a separate build
+  // step configured in the Cloudflare dashboard.
+  "build": {
+    "command": "npm run build:cf"
+  },
   "compatibility_date": "2026-08-01",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {

@@ -86,11 +86,25 @@ from providers' own domains, with 7 missing entirely.
 
 ```bash
 npm run dev        # local dev
-npm run build      # production build
+npm run build      # Next.js production build
 npm run check      # lint + typecheck + build
+npm run build:cf   # build the Cloudflare worker (.open-next/)
 npm run preview    # build and preview on Cloudflare Workers locally
-npm run deploy     # deploy to Cloudflare
+npm run deploy     # build and deploy to Cloudflare
 ```
+
+## Deployment
+
+`wrangler.jsonc` declares a `build.command` of `npm run build:cf`, so
+`npx wrangler deploy` produces `.open-next/` itself. No separate build step
+needs configuring in the Cloudflare dashboard.
+
+Without that hook, `wrangler deploy` detects the OpenNext project, delegates to
+`opennextjs-cloudflare deploy`, and fails with *"Could not find compiled Open
+Next config"* because nothing built the worker first.
+
+CI runs `npm run build:cf` on every PR so a broken deploy surfaces before it
+reaches Cloudflare.
 
 ## Status
 
