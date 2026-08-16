@@ -11,7 +11,7 @@
     "check": "npm run lint && npm run typecheck && npm run build",
     "preview": "npm run build:cf && opennextjs-cloudflare preview",
     "deploy": "npm run build:cf && opennextjs-cloudflare deploy",
-    "build:cf": "opennextjs-cloudflare build"
+    "build:cf": "opennextjs-cloudflare build && opennextjs-cloudflare populateCache local"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

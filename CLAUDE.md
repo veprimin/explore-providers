@@ -143,3 +143,17 @@ https://www.exploreproviders.com/wp-json/wp/v2/posts?per_page=100&page=N
   delegation (`--config`, `--dry-run`, `--no-autoconfig`).
 - `eslint-config-next` 16 breaks under the `FlatCompat` shim. Use its native
   flat config exports.
+- **Prerendered pages come back empty / 404 on Cloudflare unless an incremental
+  cache is configured.** Every App Router page here is prerendered at build
+  (`getAllPosts()` reads `content/posts` via `fs`). OpenNext's default is a
+  no-op incremental cache, so at runtime the worker can't find the prerendered
+  HTML and re-renders in workerd, where there is no filesystem — posts vanish
+  ("No posts published yet") and `dynamicParams = false` routes (categories,
+  posts) 404. Fix is two parts: `open-next.config.ts` sets
+  `incrementalCache: staticAssetsIncrementalCache` (serves the prerendered
+  `.cache` files from the existing `ASSETS` binding — no R2/KV), and `build:cf`
+  runs `opennextjs-cloudflare populateCache local` after the build to copy
+  `.open-next/cache` into `.open-next/assets/cdn-cgi/_next_cache`. Populate must
+  live in `build:cf` (not only in `deploy`) because the dashboard **Build
+  command** is `build:cf`, and any later `build.command` re-run would otherwise
+  wipe a populate that ran earlier.
