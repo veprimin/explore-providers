@@ -18,8 +18,11 @@ export async function GET(
   const { partner } = await params;
   const provider = getProvider(partner);
 
-  if (!provider?.affiliateUrl) {
-    // No link configured yet - send the reader somewhere useful rather than 404.
+  // `affiliateReady` is checked here as well as at every link site, because this
+  // is the single choke point: a URL carrying another property's sub-IDs would
+  // otherwise credit that property for clicks earned here.
+  if (!provider?.affiliateUrl || !provider.affiliateReady) {
+    // No usable link - send the reader somewhere useful rather than 404.
     return NextResponse.redirect(new URL("/", "https://www.exploreproviders.com"), 302);
   }
 
