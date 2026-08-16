@@ -114,7 +114,14 @@ https://www.exploreproviders.com/wp-json/wp/v2/posts?per_page=100&page=N
 - `next.config.ts` `redirects()` strips the destination's trailing slash then
   re-adds it, producing a **two-hop chain**. Redirects live in
   `src/middleware.ts` instead, setting `Location` directly.
-- `wrangler deploy` needs `.open-next/` to already exist. `wrangler.jsonc`
-  declares `build.command` so the deploy is self-sufficient — do not remove it.
+- `wrangler deploy` needs `.open-next/` to already exist, and `wrangler.jsonc`'s
+  `build.command` does **not** supply it. wrangler 4.123 detects the OpenNext
+  project (`next.config.ts` beside `open-next.config.ts`) and re-execs
+  `opennextjs-cloudflare deploy` *before* it ever runs `build.command`, so the
+  hook is skipped and the deploy dies on "Could not find compiled Open Next
+  config". Something else has to run `npm run build:cf` first: the Cloudflare
+  **Build command** in the dashboard, or `npm run deploy` locally. Keep
+  `build.command` anyway — it still covers the invocations that skip the
+  delegation (`--config`, `--dry-run`, `--no-autoconfig`).
 - `eslint-config-next` 16 breaks under the `FlatCompat` shim. Use its native
   flat config exports.

@@ -2,8 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "explore-providers",
   "main": ".open-next/worker.js",
-  // Runs before deploy so `wrangler deploy` works without a separate build
-  // step configured in the Cloudflare dashboard.
+  // Only runs on invocations that skip wrangler's OpenNext delegation
+  // (`--config`, `--dry-run`, `--no-autoconfig`, and the inner `wrangler deploy`
+  // that `opennextjs-cloudflare deploy` shells into). A plain `wrangler deploy`
+  // re-execs `opennextjs-cloudflare deploy` before reading this, so Cloudflare
+  // Workers Builds must also set its Build command to `npm run build:cf`.
   "build": {
     "command": "npm run build:cf"
   },
