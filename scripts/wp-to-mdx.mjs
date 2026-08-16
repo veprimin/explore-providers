@@ -51,13 +51,23 @@ function isPrettyLink(href) {
 const GO_OPEN = "⟦GO⟧";
 const GO_CLOSE = "⟦/GO⟧";
 
+/** Placeholder for <br>, so it survives the whitespace collapse in inline(). */
+const BREAK = "⟦BR⟧";
+
+/** Glyphs the posts use to fake a list inside a <br>-separated paragraph. */
+const BULLET = /^(?:[✔✖✓✗•·]|[0-9]️?⃣|\p{Emoji_Presentation})\s*/u;
+
 /** Inline HTML -> markdown, for the contents of a block-level element. */
 function inline(html) {
   return decode(
     html
       .replace(/<(strong|b)>(.*?)<\/\1>/gis, "**$2**")
       .replace(/<(em|i)>(.*?)<\/\1>/gis, "_$2_")
-      .replace(/<br\s*\/?>/gi, " ")
+      // The editor emits <br data-start=… />, so a bare /<br\s*\/?>/ misses it
+      // and the generic tag strip below then joins the lines with no space at
+      // all ("PDE5 inhibitors2️⃣"). These breaks are load-bearing — the posts
+      // use them to lay out ✔/✖ and numbered runs — so keep them as breaks.
+      .replace(/<br[^>]*>/gi, BREAK)
       .replace(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gis, "[$2]($1)")
       .replace(/<[^>]+>/g, ""),
   )
@@ -66,6 +76,24 @@ function inline(html) {
     .replace(new RegExp(`${GO_OPEN}\\s*${GO_CLOSE}`, "g"), "") // empty anchor
     .replace(new RegExp(`${GO_OPEN}(.*?)${GO_CLOSE}`, "gs"), "<Go>$1</Go>")
     .trim();
+}
+
+/**
+ * A <br>-separated paragraph. Where every line is glyph-led ("✔ Free shipping")
+ * the original was a list drawn by hand, so emit a real list; otherwise keep
+ * the lines apart with a markdown hard break rather than running them together.
+ */
+function splitBreaks(text) {
+  const lines = text
+    .split(BREAK)
+    .map((l) => l.trim())
+    .filter(Boolean);
+  if (lines.length <= 1) return lines.join("").replace(BULLET, "").trim();
+
+  if (lines.every((l) => BULLET.test(l))) {
+    return lines.map((l) => `- ${l.replace(BULLET, "").trim()}`).join("\n");
+  }
+  return lines.join("\\\n");
 }
 
 /**
@@ -110,7 +138,11 @@ function renderList(body, ordered, indent = 0) {
   return topLevelItems(body)
     .map((item, i) => {
       const nested = [...item.matchAll(/<(ul|ol)(?:\s[^>]*)?>([\s\S]*)<\/\1>/gi)];
-      const own = inline(item.replace(/<(ul|ol)(?:\s[^>]*)?>[\s\S]*<\/\1>/gi, ""));
+      const own = inline(item.replace(/<(ul|ol)(?:\s[^>]*)?>[\s\S]*<\/\1>/gi, ""))
+        .split(BREAK)
+        .join(" ")
+        .replace(/\s+/g, " ")
+        .trim();
       const marker = ordered ? `${i + 1}.` : "-";
       const lines = own ? [`${pad}${marker} ${own}`] : [];
       for (const n of nested) {
@@ -190,17 +222,17 @@ export function convert(html) {
 
     if (/^h[1-6]$/i.test(tag)) {
       const level = Math.max(2, Number(tag[1])); // never emit a second H1
-      const text = inline(body);
+      const text = inline(body).split(BREAK).join(" ").replace(/\s+/g, " ").trim();
       if (text) out.push(`${"#".repeat(level)} ${text}`);
     } else if (tag === "p") {
-      const text = inline(body);
+      const text = splitBreaks(inline(body));
       // A paragraph that is nothing but the affiliate link was a styled button
       // in the original, so render it as the real CTA rather than a bare link.
       if (/^\*{0,2}<Go>[\s\S]*<\/Go>\*{0,2}$/.test(text)) out.push("<CTA />");
       else if (text) out.push(text);
     } else if (tag === "blockquote") {
-      const text = inline(body);
-      if (text) out.push(`> ${text}`);
+      const text = splitBreaks(inline(body));
+      if (text) out.push(text.split("\n").map((l) => `> ${l}`).join("\n"));
     } else if (tag === "ul" || tag === "ol") {
       const list = renderList(body, tag === "ol");
       if (list) out.push(list);
