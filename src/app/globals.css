@@ -2,9 +2,47 @@
 
 :root { color-scheme: light; }
 
+@layer components {
+  /*
+   * Single page shell. Every route uses this rather than setting its own
+   * max-width, so the site is edge-to-edge on wide screens with one place to
+   * change the gutter. Sections that need a full-bleed background put the
+   * background on the outer element and .container-shell on the inner one.
+   */
+  .container-shell {
+    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-6 lg:px-8;
+  }
+
+  /*
+   * Body copy stays at a readable measure even though the shell around it is
+   * wide. Applied to the article column, never to the shell itself.
+   */
+  .measure {
+    @apply max-w-[68ch];
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-wider text-slate-500;
+  }
+
+  .card {
+    @apply rounded-lg border border-slate-200 bg-white p-6;
+  }
+}
+
 .prose-post :where(h2) { @apply mt-10 mb-3 text-2xl font-semibold text-slate-900; }
 .prose-post :where(h3) { @apply mt-8 mb-2 text-xl font-semibold text-slate-900; }
 .prose-post :where(p)  { @apply my-4 leading-7 text-slate-700; }
 .prose-post :where(ul) { @apply my-4 list-disc space-y-1 pl-6 text-slate-700; }
 .prose-post :where(ol) { @apply my-4 list-decimal space-y-1 pl-6 text-slate-700; }
 .prose-post :where(a)  { @apply text-slate-900 underline underline-offset-2; }
+.prose-post :where(blockquote) {
+  @apply my-6 border-l-4 border-slate-300 bg-slate-50 py-3 pl-5 pr-4 text-slate-600;
+}
+.prose-post :where(blockquote p) { @apply my-2; }
+.prose-post :where(strong) { @apply font-semibold text-slate-900; }
+
+/* Tables inside MDX bodies scroll rather than blowing out the measure. */
+.prose-post :where(table) { @apply my-6 w-full border-collapse text-left text-sm; }
+.prose-post :where(th) { @apply border-b-2 border-slate-300 py-2 pr-4 font-semibold text-slate-900; }
+.prose-post :where(td) { @apply border-b border-slate-200 py-3 pr-4 align-top text-slate-700; }

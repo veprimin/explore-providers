@@ -6,23 +6,50 @@
     "partner": true,
     "editorialScore": 9.4,
     "bestFor": "Men who want faster onset and a longer response window than single-ingredient pills",
-    "format": "Compounded sublingual troche",
+    "format": "Sublingual troche — PT-141 + sildenafil + L-citrulline + tadalafil",
     "onset": "~10-15 minutes",
     "duration": "Up to 36 hours",
-    "startingPrice": null,
-    "priceNote": "Pricing varies by plan and dose - verify before publishing",
-    "affiliateUrl": "",
+    "startingPrice": 114,
+    "priceNote": "$114/mo for 5 doses, $179/mo for 10 doses",
+    "affiliateUrl": "https://quad.medvi.org/?oid=13&affid=89&source_id=explore_providers",
     "ctaLabel": "Check Eligibility",
     "logo": "medvi-quad.svg",
-    "lastVerified": null,
+    "lastVerified": "2026-08-16",
     "pros": [
-      "Four-ingredient compounded formula",
-      "Faster onset than standard oral tablets for some men",
-      "Extended response window"
+      "Four-ingredient compounded formula covering blood flow and desire",
+      "Sublingual format designed for faster onset than a swallowed tablet",
+      "Extended response window from a single dose"
     ],
     "cons": [
       "Compounded formulations are not FDA-approved as combination products",
-      "Requires telehealth intake and clinician approval"
+      "Requires telehealth intake and clinician approval",
+      "Monthly cost varies by the plan and dose count selected"
+    ]
+  },
+  {
+    "slug": "omzo",
+    "name": "Omzo",
+    "vertical": "ed",
+    "partner": true,
+    "editorialScore": 8.9,
+    "bestFor": "Men wanting a fast-acting combination troche with ongoing clinician support",
+    "format": "Dissolvable troche — sildenafil + tadalafil + oxytocin",
+    "onset": "~10-15 minutes",
+    "duration": "Up to 36 hours",
+    "startingPrice": 130,
+    "priceNote": "$130/mo (Medium) to $249/mo (High), 20-240 uses per plan",
+    "affiliateUrl": "https://www.omzo.com/sexual-health?affid=6&oid=70&pub=1896&sub1=1896&oid2=6007&affid2=1896",
+    "ctaLabel": "Explore Omzo",
+    "logo": "omzo.svg",
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Combination troche targets blood flow and the arousal pathway",
+      "Two published strengths — Medium (20mg/5mg) and High (100mg/20mg)",
+      "Unbranded packaging and free expedited delivery"
+    ],
+    "cons": [
+      "Compounded troche, not FDA-approved as a combination product",
+      "Requires an online intake and clinician approval before shipping"
     ]
   },
   {
@@ -32,36 +59,24 @@
     "partner": true,
     "editorialScore": 8.8,
     "bestFor": "Men wanting a multi-ingredient rapid-dissolve alternative to standard ED pills",
-    "format": "Rapid dissolve tablet",
-    "onset": null,
+    "format": "Rapid-dissolve tablet — apomorphine + sildenafil + tadalafil",
+    "onset": "~15 minutes",
     "duration": null,
     "startingPrice": null,
-    "priceNote": "Verify current pricing before publishing",
-    "affiliateUrl": "",
+    "priceNote": "From $7.45 per dose; 33% off the first month advertised",
+    "affiliateUrl": "https://directmeds.com/dmo/directmax-stc/?oid=17&affid=659&source_id=exploreproviders&sub3=reviews",
     "ctaLabel": "Get DirectMax",
     "logo": "directmax.svg",
-    "lastVerified": null,
-    "pros": ["Triple-action combination formula", "Discreet online ordering"],
-    "cons": ["Compounded product", "Limited independent review volume"]
-  },
-  {
-    "slug": "braverx",
-    "name": "BraveRx",
-    "vertical": "ed",
-    "partner": true,
-    "editorialScore": 8.5,
-    "bestFor": "Men who want a customised formula including apomorphine",
-    "format": "Compounded 4-in-1 formula",
-    "onset": null,
-    "duration": null,
-    "startingPrice": null,
-    "priceNote": "Verify current pricing before publishing",
-    "affiliateUrl": "",
-    "ctaLabel": "See BraveRx Plans",
-    "logo": "braverx.svg",
-    "lastVerified": null,
-    "pros": ["Ingredient customisation based on health history", "Includes apomorphine"],
-    "cons": ["Compounded product", "Niche formula with limited long-term data"]
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Three-ingredient formula targeting both vascular and neurological pathways",
+      "Fast-dissolve tablet rather than a swallowed pill",
+      "Clinician-managed prescription process"
+    ],
+    "cons": [
+      "Compounded product, not FDA-approved as a combination",
+      "Higher cost per dose than single-ingredient generics"
+    ]
   },
   {
     "slug": "embody-rodeo",
@@ -70,55 +85,51 @@
     "partner": true,
     "editorialScore": 8.7,
     "bestFor": "Men wanting a 4-in-1 male health stack rather than ED treatment alone",
-    "format": "Quadruple combination",
-    "onset": null,
-    "duration": null,
+    "format": "Sublingual troche — sildenafil + tadalafil + vardenafil + apomorphine",
+    "onset": "~15 minutes",
+    "duration": "Up to 36 hours",
     "startingPrice": 69,
-    "priceNote": "Verify current pricing before publishing",
-    "affiliateUrl": "",
+    "priceNote": "Promotional $69/mo, from a $129/mo list price",
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1548&aff_id=10248&source=ep_reviews&url_id=12169",
     "ctaLabel": "Explore RODEO",
     "logo": "embody-rodeo.svg",
-    "lastVerified": null,
-    "pros": ["Covers broader male health, not just ED", "Competitive entry price"],
-    "cons": ["Bundle may include components not everyone needs"]
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Four actives covering vascular and neurological contributors",
+      "Sublingual delivery with minimal food interaction",
+      "Per-patient dosing set by the reviewing clinician"
+    ],
+    "cons": [
+      "Bundle may include components not everyone needs",
+      "Promotional pricing, so the list price is what renews",
+      "Compounded medication, not individually FDA-approved"
+    ]
   },
   {
     "slug": "rugiet",
-    "name": "Rugiet",
+    "name": "Rugiet Ready",
     "vertical": "ed",
     "partner": true,
     "editorialScore": 8.6,
     "bestFor": "Men prioritising speed of onset with an established provider",
-    "format": "Fast-acting compounded treatment",
+    "format": "Fast-acting compounded 3-in-1 treatment",
     "onset": "~15 minutes",
     "duration": null,
     "startingPrice": null,
-    "priceNote": "15% off first order - verify offer is still live",
-    "affiliateUrl": "",
-    "ctaLabel": "Get 15% Off First Order",
+    "priceNote": "Promotional discount advertised; list pricing not published up front",
+    "affiliateUrl": "https://rugiet-health.pxf.io/09eEJM",
+    "ctaLabel": "See Rugiet Ready",
     "logo": "rugiet.svg",
-    "lastVerified": null,
-    "pros": ["Reports 300,000+ clients", "Trustpilot 4.1 (verify current)"],
-    "cons": ["Compounded product", "Subscription model"]
-  },
-  {
-    "slug": "hone-health",
-    "name": "Hone Health",
-    "vertical": "ed",
-    "partner": true,
-    "editorialScore": 8.4,
-    "bestFor": "Men who want ED care alongside broader hormone testing",
-    "format": "Telehealth programme",
-    "onset": null,
-    "duration": null,
-    "startingPrice": null,
-    "priceNote": "Verify current pricing before publishing",
-    "affiliateUrl": "",
-    "ctaLabel": "Start with Hone",
-    "logo": "hone-health.svg",
-    "lastVerified": null,
-    "pros": ["At-home lab testing included", "Broader hormone focus"],
-    "cons": ["Higher cost than ED-only providers"]
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Quick onset geared toward spontaneity",
+      "Fully online flow with no insurance requirement",
+      "Large reported user base"
+    ],
+    "cons": [
+      "Compounded product",
+      "Subscription model and promotional pricing that can change"
+    ]
   },
   {
     "slug": "ro",
@@ -127,17 +138,49 @@
     "partner": true,
     "editorialScore": 8.6,
     "bestFor": "Men who want a large, well-established telehealth brand",
-    "format": "Generic and branded ED medication",
+    "format": "Generic and branded FDA-approved ED medication",
     "onset": null,
     "duration": null,
     "startingPrice": null,
-    "priceNote": "15% off first order - verify offer is still live",
-    "affiliateUrl": "",
-    "ctaLabel": "Get 15% Off First Order",
+    "priceNote": "Varies by medication; $15 off the first order advertised",
+    "affiliateUrl": "https://track.revoffers.com/SH51x",
+    "ctaLabel": "See Ro Pricing",
     "logo": "ro.svg",
-    "lastVerified": null,
-    "pros": ["Established brand with scale", "Genuine FDA-approved generics"],
-    "cons": ["Less differentiated formula than compounded options"]
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Established brand with scale and service track record",
+      "Genuine FDA-approved generics rather than a compounded blend",
+      "Free two-day discreet shipping"
+    ],
+    "cons": [
+      "Less differentiated than the compounded combination formulas",
+      "Cost depends heavily on which medication is prescribed"
+    ]
+  },
+  {
+    "slug": "hone-health",
+    "name": "Hone Health",
+    "vertical": "ed",
+    "partner": true,
+    "editorialScore": 8.4,
+    "bestFor": "Men who want ED care alongside broader hormone testing",
+    "format": "Lab-first telehealth programme with hormone panel",
+    "onset": null,
+    "duration": null,
+    "startingPrice": null,
+    "priceNote": "Priced per personalised protocol; no flat rate published",
+    "affiliateUrl": "https://track.revoffers.com/SH51w",
+    "ctaLabel": "Start with Hone",
+    "logo": "hone-health.svg",
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "At-home lab testing included, so hormonal contributors get looked at",
+      "Physician-led treatment planning rather than a single fixed formula"
+    ],
+    "cons": [
+      "More steps than an ED-only service",
+      "Total cost depends on the personalised protocol"
+    ]
   },
   {
     "slug": "hims",
@@ -146,17 +189,24 @@
     "partner": true,
     "editorialScore": 8.3,
     "bestFor": "Men wanting the lowest-cost entry point on generic ED medication",
-    "format": "Generic sildenafil / tadalafil",
+    "format": "Generic sildenafil / tadalafil, plus a 3-in-1 pill or chewable",
     "onset": null,
-    "duration": null,
+    "duration": "Up to 36 hours on the combination formula",
     "startingPrice": null,
-    "priceNote": "Verify current pricing before publishing",
-    "affiliateUrl": "",
+    "priceNote": "Varies by medication and plan; entry generics are the cheapest here",
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1075&aff_id=10248&source=mens%20health%20page&url_id=10963",
     "ctaLabel": "See Hims Pricing",
     "logo": "hims.svg",
-    "lastVerified": null,
-    "pros": ["Low entry price", "Very large brand recognition"],
-    "cons": ["Subscription required", "Upsells across unrelated categories"]
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Low entry price on FDA-approved generics",
+      "Choice of a pill or a chewable format",
+      "Very large brand with wide state availability"
+    ],
+    "cons": [
+      "Subscription required",
+      "Upsells across unrelated categories"
+    ]
   },
   {
     "slug": "bettermerx-qmax",
@@ -164,36 +214,51 @@
     "vertical": "ed",
     "partner": true,
     "editorialScore": 8.2,
-    "bestFor": "Men looking for a quad-style formula from a multi-vertical provider",
-    "format": "Quad combination",
-    "onset": null,
-    "duration": null,
+    "bestFor": "Men who use ED treatment often enough to reach the volume pricing tiers",
+    "format": "Sublingual liquid — sildenafil 40mg + tadalafil 4mg + vardenafil 7.5mg + apomorphine 2mg",
+    "onset": "~15 minutes",
+    "duration": "Up to 36 hours",
     "startingPrice": null,
-    "priceNote": "No content exists yet - net-new review required",
-    "affiliateUrl": "",
-    "ctaLabel": "See QMAX",
+    "priceNote": "Packs from $124 (5 doses) to $449 (60 doses) — from $7.48 per dose",
+    "affiliateUrl": "https://qmax.bettermerx.com/ed/og-ga-1?_ef_transaction_id=&sub2=&oid=65&affid=43",
+    "ctaLabel": "See QMAX Pricing",
     "logo": "bettermerx.svg",
-    "lastVerified": null,
-    "pros": [],
-    "cons": []
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Four actives with published per-ingredient dosages",
+      "Sublingual absorption is not blunted by a heavy meal",
+      "Pricing published up front, with the lowest per-dose cost at volume"
+    ],
+    "cons": [
+      "Entry pack is the most expensive way to try the formula",
+      "Compounded medication, not FDA-approved as a combination product"
+    ]
   },
   {
-    "slug": "omzo",
-    "name": "Omzo",
+    "slug": "braverx",
+    "name": "BraveRx",
     "vertical": "ed",
     "partner": true,
-    "editorialScore": 8.9,
-    "bestFor": "Men wanting a newer entrant with competitive pricing",
-    "format": "Telehealth ED programme",
-    "onset": null,
-    "duration": null,
+    "editorialScore": 8.5,
+    "bestFor": "Men who want a formula that includes apomorphine for the arousal pathway",
+    "format": "Compounded formula — tadalafil 15mg + apomorphine 3mg + sildenafil 40mg",
+    "onset": "~15 minutes",
+    "duration": "Up to 36 hours",
     "startingPrice": null,
-    "priceNote": "No content exists yet - net-new review required",
-    "affiliateUrl": "",
-    "ctaLabel": "Explore Omzo",
-    "logo": "omzo.svg",
-    "lastVerified": null,
-    "pros": [],
-    "cons": []
+    "priceNote": "$159 per 12-count bottle, consultation and shipping included",
+    "affiliateUrl": "https://track.revoffers.com/aff_c?offer_id=1546&aff_id=10248",
+    "ctaLabel": "See BraveRx Plans",
+    "logo": "braverx.svg",
+    "lastVerified": "2026-08-16",
+    "pros": [
+      "Published per-ingredient dosages rather than a vague blend",
+      "Covers both blood flow and the neurological arousal pathway",
+      "Consultation and shipping included in the bottle price"
+    ],
+    "cons": [
+      "More expensive than generic ED medication",
+      "Not available in every US state",
+      "Compounded product with limited long-term combination data"
+    ]
   }
 ]
