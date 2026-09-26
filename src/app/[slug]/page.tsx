@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { CTAButton } from "@/components/CTAButton";
 import { EditorialScore } from "@/components/EditorialScore";
+import { HeroComparisonCard, HeroProviderCard } from "@/components/HeroProviderCard";
 import { mdxHeading } from "@/components/Heading";
 import { OutboundLink } from "@/components/OutboundLink";
 import { ProviderAside } from "@/components/ProviderAside";
@@ -37,6 +38,8 @@ export async function generateMetadata({
 const CATEGORY_VERTICAL: Record<string, Vertical> = {
   "ed-treatments": "ed",
   "glp-1": "glp-1",
+  // Imported comparisons are overwhelmingly GLP-1 pairs.
+  comparisons: "glp-1",
 };
 
 export default async function PostPage({
@@ -76,26 +79,26 @@ export default async function PostPage({
 
   return (
     <>
-      <div className="border-b border-slate-200 bg-slate-50">
-        <div className="container-shell py-10 md:py-14">
+      <div className="border-b border-line bg-sage-light">
+        <div className="container-shell grid items-center gap-10 py-12 md:py-20 lg:grid-cols-[minmax(0,1fr)_24rem]">
           <div className="max-w-3xl">
             {category && (
               <Link
                 href={`/category/${category.slug}/`}
-                className="eyebrow hover:text-slate-700"
+                className="eyebrow hover:underline"
               >
                 {category.name}
               </Link>
             )}
-            <h1 className="mt-2 text-4xl font-bold leading-tight tracking-tight text-slate-900">
+            <h1 className="mt-4 text-[clamp(2.1rem,1.5rem+2.6vw,3.75rem)] leading-[1.08] tracking-[-0.02em]">
               {post.title}
             </h1>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+            <p className="mt-5 text-[clamp(1.1rem,1rem+0.5vw,1.35rem)] leading-relaxed text-muted">
               {post.description}
             </p>
-            <div className="mt-5 space-y-1 text-sm text-slate-500">
+            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-1 border-t border-line-sage pt-5 text-[0.8125rem] text-muted">
               <p>
-                By {post.author}
+                By <strong className="font-semibold text-charcoal">{post.author}</strong>
                 {post.medicalReviewer && (
                   <> · Medically reviewed by {post.medicalReviewer}</>
                 )}
@@ -112,6 +115,12 @@ export default async function PostPage({
               </p>
             </div>
           </div>
+
+          {provider ? (
+            <HeroProviderCard provider={provider} />
+          ) : post.providers?.length ? (
+            <HeroComparisonCard providers={post.providers} />
+          ) : null}
         </div>
       </div>
 
@@ -122,7 +131,12 @@ export default async function PostPage({
       <div className="container-shell py-10 md:py-14">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
           <article className="prose-post measure min-w-0">
-            <MDXRemote source={post.body} components={components} />
+            {post.format === "html" ? (
+              // Imported comparisons: sanitised by scripts/import-mystudytimes.mjs.
+              <div dangerouslySetInnerHTML={{ __html: post.body }} />
+            ) : (
+              <MDXRemote source={post.body} components={components} />
+            )}
           </article>
 
           {vertical && (

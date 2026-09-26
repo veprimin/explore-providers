@@ -14,8 +14,10 @@
     "build:cf": "opennextjs-cloudflare build && opennextjs-cloudflare populateCache local"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/newsreader": "^5.3.0",
     "gray-matter": "^4.0.3",
-    "next": "16.3.1",
+    "next": "16.3.6",
     "next-mdx-remote": "^6.0.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
@@ -27,7 +29,7 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "eslint": "^9.18.0",
-    "eslint-config-next": "16.3.1",
+    "eslint-config-next": "16.3.6",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.7.0",
     "wrangler": "^4.86.0"

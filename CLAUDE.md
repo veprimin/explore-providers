@@ -21,7 +21,7 @@ These are not preferences. Do not relax them without asking.
 1. **No client-side router.** Routing is the Next.js App Router, file-based,
    only. `react-router`, `react-router-dom` and `@remix-run/react` are blocked
    by an ESLint `no-restricted-imports` rule enforced in CI.
-2. **Latest Next.js.** Currently 16.3.1. Do not downgrade.
+2. **Latest Next.js.** Currently 16.3.6. Do not downgrade.
 3. **Basic blog, not a web app.** WordPress-style templates: post feed, post,
    category, hub. Server Components, near-zero client JS. No interactive
    comparison tools or dashboards.
@@ -55,6 +55,15 @@ URLs keep their original copy and publish dates; ED provider data with each
 provider's own affiliate URL, also recovered from its WordPress post so
 ExploreProviders' sub-IDs (`source_id=explore_providers`, `source=ep_reviews`)
 are preserved.
+
+**Also done (owner override, Sep 2026):** all 1,256 "X vs Y" comparisons from
+mystudytimes.com imported live as `content/posts/<slug>.html` (category
+`comparisons`) by `scripts/import-mystudytimes.mjs`, at the owner's explicit
+instruction and overriding constraints #6/#7 for those posts. Affiliate hrefs are
+kept exactly as published (mystudytimes.com/<provider>), with
+`rel="sponsored nofollow"` added; the kk-star-ratings widget is stripped
+(#5 still applies). Re-run the script to sync; it removes imported slugs from
+`gone-urls.json`. Site restyled to the ExploreMentalHealth design system.
 
 **Not done:** GLP-1. 14 URLs are marked REWRITE in the url-map; none exist yet.
 NAD/TRT after that.

@@ -1,6 +1,80 @@
 @import "tailwindcss";
 
+/*
+ * Design system shared with ExploreMentalHealth: forest green + cream, with a
+ * sparing yellow accent; Newsreader (serif) for headings, Inter for UI and body.
+ *
+ * The slate and indigo scales are remapped onto the brand palette rather than
+ * rewritten out of every component, so any `text-slate-*` / `bg-slate-*`
+ * utility already in the tree lands on a brand colour. Slate runs from the
+ * warm cream/sage tints (50–300) through muted gray to forest (800–950);
+ * indigo is the forest button scale.
+ */
+@theme {
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader Variable", "Newsreader", Georgia, "Times New Roman", serif;
+
+  --color-forest: #073f3a;
+  --color-teal: #0b4a43;
+  --color-sage: #dde9df;
+  --color-sage-light: #eef5ee;
+  --color-cream: #f8f5ee;
+  --color-charcoal: #252b29;
+  --color-muted: #5f6763;
+  --color-yellow: #e8c94b;
+  --color-yellow-soft: #f6ebbb;
+  --color-line: #e2ddd1;
+  --color-line-sage: #c9dacd;
+
+  --color-slate-50: #eef5ee;
+  --color-slate-100: #dde9df;
+  --color-slate-200: #e2ddd1;
+  --color-slate-300: #c9dacd;
+  --color-slate-400: #8f9893;
+  --color-slate-500: #5f6763;
+  --color-slate-600: #4a524f;
+  --color-slate-700: #252b29;
+  --color-slate-800: #252b29;
+  --color-slate-900: #073f3a;
+  --color-slate-950: #052d29;
+
+  --color-indigo-400: #e8c94b;
+  --color-indigo-600: #073f3a;
+  --color-indigo-700: #0b4a43;
+}
+
 :root { color-scheme: light; }
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+    background: var(--color-cream);
+    color: var(--color-charcoal);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    color: var(--color-forest);
+    text-wrap: balance;
+    font-optical-sizing: auto;
+  }
+
+  p { text-wrap: pretty; }
+
+  a { text-underline-offset: 0.18em; }
+
+  ::selection { background: var(--color-yellow-soft); color: var(--color-forest); }
+
+  :focus-visible {
+    outline: 3px solid #1f6fd1;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .on-dark :focus-visible { outline-color: var(--color-yellow); }
+}
 
 @layer components {
   /*
@@ -10,7 +84,7 @@
    * background on the outer element and .container-shell on the inner one.
    */
   .container-shell {
-    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-6 lg:px-8;
+    @apply mx-auto w-full max-w-[1320px] px-4 sm:px-6 lg:px-10;
   }
 
   /*
@@ -18,47 +92,117 @@
    * wide. Applied to the article column, never to the shell itself.
    */
   .measure {
-    @apply max-w-[68ch];
+    @apply max-w-[70ch];
   }
 
+  /* Uppercase label with the yellow dot, as on ExploreMentalHealth. */
   .eyebrow {
-    @apply text-sm font-semibold uppercase tracking-wider text-slate-500;
+    @apply inline-flex items-center gap-2 font-sans text-[0.8125rem] font-semibold uppercase tracking-[0.12em] text-teal no-underline;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-[0.55em] w-[0.55em] flex-none rounded-full bg-yellow;
   }
 
   .card {
-    @apply rounded-lg border border-slate-200 bg-white p-6;
+    @apply rounded-2xl border border-line bg-white p-6;
+  }
+
+  .btn {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[10px] border-[1.5px] border-forest bg-forest px-5 py-3 text-[0.9375rem] font-semibold leading-tight text-white no-underline transition-colors hover:border-teal hover:bg-teal;
+  }
+  .btn-secondary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[10px] border-[1.5px] border-forest bg-transparent px-5 py-3 text-[0.9375rem] font-semibold leading-tight text-forest no-underline transition-colors hover:bg-forest hover:text-white;
+  }
+  .btn-sm {
+    @apply min-h-10 px-4 py-2 text-[0.8125rem];
+  }
+
+  .link-arrow {
+    @apply inline-flex items-center gap-1.5 text-[0.9375rem] font-semibold text-forest no-underline hover:underline;
+  }
+  .link-arrow::after { content: "→"; }
+
+  .tag {
+    @apply inline-flex items-center rounded-full bg-sage px-2.5 py-1 text-xs font-semibold tracking-wide text-forest;
+  }
+
+  /* Yellow highlighter under a single word in a headline. */
+  .hl {
+    @apply relative isolate whitespace-nowrap;
+  }
+  .hl::after {
+    content: "";
+    @apply absolute -right-[0.04em] bottom-[0.08em] -left-[0.04em] -z-10 h-[0.22em] rounded-sm bg-yellow opacity-55;
   }
 }
 
-.prose-post :where(h2) { @apply mt-10 mb-3 text-2xl font-semibold text-slate-900; }
-.prose-post :where(h3) { @apply mt-8 mb-2 text-xl font-semibold text-slate-900; }
-.prose-post :where(p)  { @apply my-4 leading-7 text-slate-700; }
-.prose-post :where(ul) { @apply my-4 list-disc space-y-1 pl-6 text-slate-700; }
-.prose-post :where(ol) { @apply my-4 list-decimal space-y-1 pl-6 text-slate-700; }
-.prose-post :where(a)  { @apply text-slate-900 underline underline-offset-2; }
+/* Long-form article typography (ExploreMentalHealth's .prose). */
+.prose-post { font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem); line-height: 1.75; color: var(--color-charcoal); }
+.prose-post :where(h2) {
+  @apply mt-14 mb-3 font-serif text-forest;
+  font-size: clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem);
+  line-height: 1.15;
+}
+.prose-post :where(h3) {
+  @apply mt-10 mb-2 font-serif text-forest;
+  font-size: clamp(1.3rem, 1.15rem + 0.5vw, 1.5rem);
+  line-height: 1.25;
+}
+.prose-post :where(h4) { @apply mt-8 mb-2 font-sans text-[1.05rem] font-semibold tracking-normal text-charcoal; }
+.prose-post :where(p)  { @apply my-5; }
+.prose-post :where(ul) { @apply my-5 list-disc space-y-2 pl-6; }
+.prose-post :where(ol) { @apply my-5 list-decimal space-y-2 pl-6; }
+.prose-post :where(li)::marker { color: var(--color-teal); }
+.prose-post :where(a)  { @apply font-medium text-teal underline decoration-1 underline-offset-2 hover:decoration-2; }
 .prose-post :where(blockquote) {
-  @apply my-6 border-l-4 border-slate-300 bg-slate-50 py-3 pl-5 pr-4 text-slate-600;
+  @apply my-8 border-l-[3px] border-yellow py-1 pl-5 font-serif text-forest;
+  font-size: 1.3em;
+  line-height: 1.45;
 }
 .prose-post :where(blockquote p) { @apply my-2; }
-.prose-post :where(strong) { @apply font-semibold text-slate-900; }
+.prose-post :where(strong) { @apply font-semibold text-charcoal; }
+.prose-post :where(hr) { @apply my-10 border-0 border-t border-line; }
+.prose-post :where(img) { @apply my-8 h-auto max-w-full rounded-2xl; }
 
 /*
  * Affiliate CTA button. Written as `a.cta-button` (element + class) so it
  * outranks the unlayered `.prose-post :where(a)` link rule above — that rule is
  * unlayered and would otherwise beat Tailwind's layered `text-*` utilities,
- * painting the label the same dark slate as the button and hiding it. Keeping
+ * painting the label the same colour as the button and hiding it. Keeping
  * the whole button treatment here means colour, weight and underline are set in
  * one place that reliably wins the cascade inside prose bodies.
  */
 a.cta-button {
-  @apply inline-flex min-w-[220px] items-center justify-center rounded-lg bg-indigo-600 px-8 py-3 text-center text-base font-semibold text-white no-underline shadow-sm transition-colors;
+  @apply inline-flex min-h-12 min-w-[220px] items-center justify-center rounded-[10px] border-[1.5px] border-forest bg-forest px-8 py-3 text-center text-base font-semibold text-white no-underline transition-colors;
 }
-a.cta-button:hover { @apply bg-indigo-700; }
+a.cta-button:hover { @apply border-teal bg-teal text-white; }
 a.cta-button:focus-visible {
-  @apply outline-none ring-2 ring-indigo-400 ring-offset-2;
+  @apply outline-none ring-2 ring-yellow ring-offset-2;
 }
 
 /* Tables inside MDX bodies scroll rather than blowing out the measure. */
-.prose-post :where(table) { @apply my-6 w-full border-collapse text-left text-sm; }
-.prose-post :where(th) { @apply border-b-2 border-slate-300 py-2 pr-4 font-semibold text-slate-900; }
-.prose-post :where(td) { @apply border-b border-slate-200 py-3 pr-4 align-top text-slate-700; }
+.prose-post :where(table) { @apply my-8 block w-full overflow-x-auto text-left text-[0.9em] leading-normal; }
+.prose-post :where(th) { @apply border-b border-line bg-sage-light px-3.5 py-2.5 font-semibold text-forest; }
+.prose-post :where(td) { @apply border-b border-line px-3.5 py-3 align-top; }
+
+/* Secondary CTA (second provider in a comparison). */
+a.cta-button.cta-button--alt,
+.prose-post a.cta-button.cta-provider-b {
+  @apply border-forest bg-transparent text-forest;
+}
+a.cta-button.cta-button--alt:hover,
+.prose-post a.cta-button.cta-provider-b:hover { @apply bg-forest text-white; }
+
+/* Blocks used by the imported comparison posts. */
+.prose-post .comparison-cta { @apply my-7 text-center; }
+.prose-post .comparison-highlight {
+  @apply my-8 rounded-xl border-l-[3px] border-yellow bg-sage-light px-5 py-4;
+}
+.prose-post .comparison-summary {
+  @apply my-8 rounded-2xl border border-line bg-white p-6;
+}
+.prose-post .comparison-summary > :first-child { @apply mt-0; }
+
+/* Imported CTAs wrap their label in <strong>; let it take the button's colour. */
+a.cta-button :where(strong, b, span) { color: inherit; font-weight: inherit; }

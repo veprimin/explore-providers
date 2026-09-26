@@ -30,8 +30,8 @@ export function ProviderAside({
 
   return (
     <aside className="lg:sticky lg:top-8">
-      <div className="rounded-lg border border-slate-200 bg-slate-50 p-5">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+      <div className="rounded-2xl border border-line bg-white p-6">
+        <h2 className="font-sans text-[0.8125rem] font-semibold uppercase tracking-[0.12em] text-teal">
           {heading}
         </h2>
         <ol className="mt-4 space-y-4">
@@ -39,7 +39,7 @@ export function ProviderAside({
             <li key={p.slug} className="flex gap-3">
               <span
                 aria-hidden="true"
-                className="mt-0.5 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-slate-900 text-xs font-semibold text-white"
+                className="mt-0.5 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-yellow text-xs font-semibold text-forest"
               >
                 {rank}
               </span>
