@@ -224,22 +224,22 @@
     "editorialScore": 8.2,
     "bestFor": "Men who use ED treatment often enough to reach the volume pricing tiers",
     "format": "Sublingual liquid — sildenafil 40mg + tadalafil 4mg + vardenafil 7.5mg + apomorphine 2mg",
-    "onset": "~15 minutes",
+    "onset": "~10 minutes",
     "duration": "Up to 36 hours",
     "startingPrice": null,
-    "priceNote": "Packs from $124 (5 doses) to $449 (60 doses) — from $7.48 per dose",
+    "priceNote": "$129/month for 5 doses; one-time packs $165 (10) and $224 (20); 3-month plans up to $449 (60) — from $7.48 per dose",
     "affiliateUrl": "https://qmax.bettermerx.com/ed/og-ga-1?_ef_transaction_id=&sub2=&oid=65&affid=43",
     "affiliateReady": true,
     "ctaLabel": "See QMAX Pricing",
     "logo": "bettermerx.svg",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-09-25",
     "pros": [
       "Four actives with published per-ingredient dosages",
       "Sublingual absorption is not blunted by a heavy meal",
       "Pricing published up front, with the lowest per-dose cost at volume"
     ],
     "cons": [
-      "Entry pack is the most expensive way to try the formula",
+      "Smallest plan ($129 a month for 5 doses) is the most expensive way to buy it",
       "Compounded medication, not FDA-approved as a combination product"
     ]
   },
