@@ -18,6 +18,7 @@ export const site = {
 export const categories = [
   { slug: "ed-treatments", name: "ED Treatments", description: "Online providers for erectile dysfunction treatment." },
   { slug: "glp-1", name: "GLP-1 & Weight Loss", description: "Telehealth platforms prescribing semaglutide and tirzepatide." },
+  { slug: "comparisons", name: "Comparisons", description: "Side-by-side comparisons of telehealth providers: pricing, medications, shipping and clinical oversight." },
 ] as const;
 
 export type CategorySlug = (typeof categories)[number]["slug"];

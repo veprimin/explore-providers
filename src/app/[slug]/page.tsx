@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { CTAButton } from "@/components/CTAButton";
 import { EditorialScore } from "@/components/EditorialScore";
+import { HeroComparisonCard, HeroProviderCard } from "@/components/HeroProviderCard";
 import { mdxHeading } from "@/components/Heading";
 import { OutboundLink } from "@/components/OutboundLink";
 import { ProviderAside } from "@/components/ProviderAside";
@@ -37,6 +38,8 @@ export async function generateMetadata({
 const CATEGORY_VERTICAL: Record<string, Vertical> = {
   "ed-treatments": "ed",
   "glp-1": "glp-1",
+  // Imported comparisons are overwhelmingly GLP-1 pairs.
+  comparisons: "glp-1",
 };
 
 export default async function PostPage({
@@ -77,7 +80,7 @@ export default async function PostPage({
   return (
     <>
       <div className="border-b border-line bg-sage-light">
-        <div className="container-shell py-12 md:py-20">
+        <div className="container-shell grid items-center gap-10 py-12 md:py-20 lg:grid-cols-[minmax(0,1fr)_24rem]">
           <div className="max-w-3xl">
             {category && (
               <Link
@@ -112,6 +115,12 @@ export default async function PostPage({
               </p>
             </div>
           </div>
+
+          {provider ? (
+            <HeroProviderCard provider={provider} />
+          ) : post.providers?.length ? (
+            <HeroComparisonCard providers={post.providers} />
+          ) : null}
         </div>
       </div>
 
@@ -122,7 +131,12 @@ export default async function PostPage({
       <div className="container-shell py-10 md:py-14">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
           <article className="prose-post measure min-w-0">
-            <MDXRemote source={post.body} components={components} />
+            {post.format === "html" ? (
+              // Imported comparisons: sanitised by scripts/import-mystudytimes.mjs.
+              <div dangerouslySetInnerHTML={{ __html: post.body }} />
+            ) : (
+              <MDXRemote source={post.body} components={components} />
+            )}
           </article>
 
           {vertical && (

@@ -185,3 +185,24 @@ a.cta-button:focus-visible {
 .prose-post :where(table) { @apply my-8 block w-full overflow-x-auto text-left text-[0.9em] leading-normal; }
 .prose-post :where(th) { @apply border-b border-line bg-sage-light px-3.5 py-2.5 font-semibold text-forest; }
 .prose-post :where(td) { @apply border-b border-line px-3.5 py-3 align-top; }
+
+/* Secondary CTA (second provider in a comparison). */
+a.cta-button.cta-button--alt,
+.prose-post a.cta-button.cta-provider-b {
+  @apply border-forest bg-transparent text-forest;
+}
+a.cta-button.cta-button--alt:hover,
+.prose-post a.cta-button.cta-provider-b:hover { @apply bg-forest text-white; }
+
+/* Blocks used by the imported comparison posts. */
+.prose-post .comparison-cta { @apply my-7 text-center; }
+.prose-post .comparison-highlight {
+  @apply my-8 rounded-xl border-l-[3px] border-yellow bg-sage-light px-5 py-4;
+}
+.prose-post .comparison-summary {
+  @apply my-8 rounded-2xl border border-line bg-white p-6;
+}
+.prose-post .comparison-summary > :first-child { @apply mt-0; }
+
+/* Imported CTAs wrap their label in <strong>; let it take the button's colour. */
+a.cta-button :where(strong, b, span) { color: inherit; font-weight: inherit; }

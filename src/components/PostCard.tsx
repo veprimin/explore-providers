@@ -17,8 +17,8 @@ export function PostCard({ post }: { post: Post }) {
   return (
     <article className="group relative flex h-full flex-col rounded-2xl border border-line bg-white p-6 transition hover:-translate-y-0.5 hover:border-line-sage hover:shadow-[0_6px_24px_-12px_rgba(7,63,58,0.18)] motion-reduce:transition-none motion-reduce:hover:translate-y-0">
       <p className="flex flex-wrap items-center gap-2 text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-teal">
-        {label && <span>{label}</span>}
-        <span className="tag">Review</span>
+        {label && post.category !== "comparisons" && <span>{label}</span>}
+        <span className="tag">{post.category === "comparisons" ? "Comparison" : "Review"}</span>
       </p>
       <h2 className="mt-3 text-[clamp(1.25rem,1.1rem+0.45vw,1.5rem)] leading-[1.22]">
         <Link

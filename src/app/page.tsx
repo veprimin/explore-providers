@@ -6,7 +6,9 @@ import { getProviders } from "@/lib/providers";
 import { categories, site } from "@/lib/site";
 
 export default function HomePage() {
-  const posts = getAllPosts();
+  const all = getAllPosts();
+  const posts = all.filter((p) => p.category !== "comparisons");
+  const comparisons = all.filter((p) => p.category === "comparisons").slice(0, 6);
   const edProviders = getProviders("ed");
 
   return (
@@ -75,6 +77,27 @@ export default function HomePage() {
           </div>
         )}
       </section>
+
+      {comparisons.length > 0 && (
+        <section className="border-t border-line">
+          <div className="container-shell py-16 md:py-24">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <p className="eyebrow">Head to head</p>
+                <h2 className="mt-3 text-[clamp(1.875rem,1.45rem+1.7vw,2.875rem)] leading-[1.12]">Latest comparisons</h2>
+              </div>
+              <Link href="/category/comparisons/" className="link-arrow">
+                All comparisons
+              </Link>
+            </div>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {comparisons.map((p) => (
+                <PostCard key={p.slug} post={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {edProviders.length > 0 && (
         <section className="bg-sage-light">
