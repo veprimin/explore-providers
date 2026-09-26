@@ -47,14 +47,14 @@ export default async function CategoryPage({
 
   return (
     <>
-      <section className="border-b border-slate-200 bg-slate-50">
-        <div className="container-shell py-12 md:py-16">
+      <section className="border-b border-line bg-sage-light">
+        <div className="container-shell py-14 md:py-20">
           <div className="max-w-3xl">
             <p className="eyebrow">Category</p>
-            <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">
+            <h1 className="mt-4 text-[clamp(2.375rem,1.6rem+3.2vw,4.25rem)] leading-[1.08] tracking-[-0.02em]">
               {cat.name}
             </h1>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+            <p className="mt-5 text-[clamp(1.1rem,1rem+0.5vw,1.4rem)] leading-relaxed text-muted">
               {cat.description}
             </p>
           </div>
@@ -74,7 +74,7 @@ export default async function CategoryPage({
 
         {providers.length > 0 && (
           <div className="mt-16 border-t border-slate-200 pt-12">
-            <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
+            <h2 className="text-[clamp(1.875rem,1.45rem+1.7vw,2.875rem)] leading-[1.12]">
               Providers at a glance
             </h2>
             <ProviderTable providers={providers} />

@@ -76,26 +76,26 @@ export default async function PostPage({
 
   return (
     <>
-      <div className="border-b border-slate-200 bg-slate-50">
-        <div className="container-shell py-10 md:py-14">
+      <div className="border-b border-line bg-sage-light">
+        <div className="container-shell py-12 md:py-20">
           <div className="max-w-3xl">
             {category && (
               <Link
                 href={`/category/${category.slug}/`}
-                className="eyebrow hover:text-slate-700"
+                className="eyebrow hover:underline"
               >
                 {category.name}
               </Link>
             )}
-            <h1 className="mt-2 text-4xl font-bold leading-tight tracking-tight text-slate-900">
+            <h1 className="mt-4 text-[clamp(2.1rem,1.5rem+2.6vw,3.75rem)] leading-[1.08] tracking-[-0.02em]">
               {post.title}
             </h1>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+            <p className="mt-5 text-[clamp(1.1rem,1rem+0.5vw,1.35rem)] leading-relaxed text-muted">
               {post.description}
             </p>
-            <div className="mt-5 space-y-1 text-sm text-slate-500">
+            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-1 border-t border-line-sage pt-5 text-[0.8125rem] text-muted">
               <p>
-                By {post.author}
+                By <strong className="font-semibold text-charcoal">{post.author}</strong>
                 {post.medicalReviewer && (
                   <> · Medically reviewed by {post.medicalReviewer}</>
                 )}

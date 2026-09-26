@@ -8,7 +8,7 @@ import type { Provider } from "@/lib/providers";
  */
 export function EditorialScore({ provider }: { provider: Provider }) {
   return (
-    <div className="my-6 rounded-md border border-slate-200 bg-slate-50 p-4">
+    <div className="my-8 rounded-xl border-l-[3px] border-yellow bg-sage-light p-5">
       <p className="text-sm text-slate-600">
         <strong className="text-slate-900">Editorial score: {provider.editorialScore}/10</strong>
         {" — "}assigned by the Explore Providers editorial team.{" "}

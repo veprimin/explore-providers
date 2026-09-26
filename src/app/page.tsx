@@ -11,47 +11,64 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="border-b border-slate-200 bg-slate-50">
-        <div className="container-shell py-14 md:py-20">
+      <section className="relative overflow-hidden border-b border-line">
+        <div className="container-shell grid items-center gap-12 py-16 md:py-24 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
-              {site.name}
+            <p className="eyebrow">Independent telehealth reviews</p>
+            <h1 className="mt-5 text-[clamp(2.75rem,1.6rem+4.8vw,5.5rem)] leading-[1.04] tracking-[-0.025em]">
+              Clear answers. <span className="font-serif italic">Better</span>{" "}
+              <span className="hl">treatment</span> decisions.
             </h1>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+            <p className="mt-6 max-w-2xl text-[clamp(1.1rem,1rem+0.5vw,1.4rem)] leading-relaxed text-muted">
               {site.description}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              {categories.map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/category/${c.slug}/`}
-                  className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-800 hover:border-slate-400"
-                >
+            <div className="mt-9 flex flex-wrap gap-3">
+              {categories.map((c, i) => (
+                <Link key={c.slug} href={`/category/${c.slug}/`} className={i === 0 ? "btn" : "btn-secondary"}>
                   {c.name}
                 </Link>
               ))}
             </div>
           </div>
+
+          <aside className="rounded-[28px] bg-sage p-8 md:p-10">
+            <p className="eyebrow">How we review</p>
+            <ul className="mt-6 space-y-5 text-[0.9375rem] leading-relaxed text-charcoal">
+              <li>
+                <strong className="block font-serif text-xl font-normal text-forest">What&apos;s actually in it</strong>
+                Ingredients, format and dose, checked against the provider&apos;s own site.
+              </li>
+              <li>
+                <strong className="block font-serif text-xl font-normal text-forest">What it really costs</strong>
+                Missing prices say &ldquo;Not published&rdquo; — never a guess.
+              </li>
+              <li>
+                <strong className="block font-serif text-xl font-normal text-forest">Scores are opinion</strong>
+                Editorial assessments, not user ratings.
+              </li>
+            </ul>
+            <Link href="/methodology/" className="link-arrow mt-7">
+              How we rank
+            </Link>
+          </aside>
         </div>
       </section>
 
-      <section className="container-shell py-12 md:py-16">
-        <div className="flex items-baseline justify-between gap-4">
-          <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
-            Latest reviews
-          </h2>
-          <Link
-            href="/category/ed-treatments/"
-            className="text-sm text-slate-600 underline underline-offset-2 hover:text-slate-900"
-          >
+      <section className="container-shell py-16 md:py-24">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="eyebrow">Latest</p>
+            <h2 className="mt-3 text-[clamp(1.875rem,1.45rem+1.7vw,2.875rem)] leading-[1.12]">Latest reviews</h2>
+          </div>
+          <Link href="/category/ed-treatments/" className="link-arrow">
             Browse ED treatments
           </Link>
         </div>
 
         {posts.length === 0 ? (
-          <p className="mt-6 text-slate-500">No posts published yet.</p>
+          <p className="mt-6 text-muted">No posts published yet.</p>
         ) : (
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {posts.map((p) => (
               <PostCard key={p.slug} post={p} />
             ))}
@@ -60,15 +77,14 @@ export default function HomePage() {
       </section>
 
       {edProviders.length > 0 && (
-        <section className="border-t border-slate-200 bg-slate-50">
-          <div className="container-shell py-12 md:py-16">
-            <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
-              ED providers we cover
-            </h2>
-            <p className="mt-3 max-w-3xl text-slate-600">
+        <section className="bg-sage-light">
+          <div className="container-shell py-16 md:py-24">
+            <p className="eyebrow">Compare</p>
+            <h2 className="mt-3 text-[clamp(1.875rem,1.45rem+1.7vw,2.875rem)] leading-[1.12]">ED providers we cover</h2>
+            <p className="mt-4 max-w-3xl text-lg text-muted">
               Ordered by our own editorial score. Scores are an editorial
               assessment, not an average of user ratings —{" "}
-              <Link href="/methodology/" className="underline underline-offset-2">
+              <Link href="/methodology/" className="text-teal underline underline-offset-2">
                 how we rank
               </Link>
               .

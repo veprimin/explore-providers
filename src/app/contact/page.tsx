@@ -45,7 +45,7 @@ export default function ContactPage() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {desks.map((d) => (
             <div key={d.email} className="card flex h-full flex-col">
-              <h2 className="text-base font-semibold text-slate-900">{d.title}</h2>
+              <h2 className="text-xl">{d.title}</h2>
               <p className="mt-2 flex-1 text-sm leading-6 text-slate-600">
                 {d.desc}
               </p>
