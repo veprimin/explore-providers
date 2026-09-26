@@ -21,7 +21,7 @@ These are not preferences. Do not relax them without asking.
 1. **No client-side router.** Routing is the Next.js App Router, file-based,
    only. `react-router`, `react-router-dom` and `@remix-run/react` are blocked
    by an ESLint `no-restricted-imports` rule enforced in CI.
-2. **Latest Next.js.** Currently 16.3.1. Do not downgrade.
+2. **Latest Next.js.** Currently 16.3.6. Do not downgrade.
 3. **Basic blog, not a web app.** WordPress-style templates: post feed, post,
    category, hub. Server Components, near-zero client JS. No interactive
    comparison tools or dashboards.
